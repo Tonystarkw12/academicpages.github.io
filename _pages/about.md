@@ -19,6 +19,24 @@ redirect_from:
 - ⚖️ 体重：57 千克
 - 🧩 性格类型：INFJ-T
 
+我的项目
+------
+### 🤖 AI 与科研项目
+
+**AI NMR Pulse Sequence 生成**
+[https://nmr.201014.xyz](https://nmr.201014.xyz)
+> 用 AI 生成 NMR pulse sequence 的项目
+
+**AI 情侣匹配**
+[https://ailove.201014.xyz](https://ailove.201014.xyz)
+> 个人开发的软件，用 AI 匹配情侣
+
+### 📝 博客
+[http://ugreen.201014.xyz:8090](http://ugreen.201014.xyz:8090)
+
+### 👨‍🏫 导师介绍
+[清华大学实验室网站](https://life.tsinghua.edu.cn/info/1033/1271.htm)
+
 我的性格
 ------
 我性格**非常内向**，也很**容易自卑**，不太擅长和别人交往。我一直想要改进这一点。我曾经患有**抑郁症**，总是容易抱有消极的想法，短暂地吃过一段时间的曲唑酮。我总是会有新奇的想法，但是有的时候会产生一些极端想法。
@@ -48,7 +66,38 @@ redirect_from:
 - 平日里会抽出时间**锻炼**
 
 ### 📚 写作
-我最大的爱好是**写小说**，目前已经写了**40 万字**。希望有人能够喜欢我的小说。
+我最大的爱好是**写小说**，目前已经写了**57 万字**。
+
+**长篇小说《星灵一》**
+[番茄小说在线阅读](https://fanqienovel.com/page/7513553317675420734?enter_from=search)
+> 讲述了人为什么活着的终极答案
+
+我的项目
+------
+### 🤖 AI 与科研项目
+
+**AI NMR Pulse Sequence 生成**
+[https://nmr.201014.xyz](https://nmr.201014.xyz)
+> 用 AI 生成 NMR pulse sequence 的项目
+
+**AI 情侣匹配**
+[https://ailove.201014.xyz](https://ailove.201014.xyz)
+> 个人开发的软件，用 AI 匹配情侣
+
+### 📝 博客
+[http://ugreen.201014.xyz:8090](http://ugreen.201014.xyz:8090)
+
+### 👨‍🏫 导师介绍
+[清华大学实验室网站](https://life.tsinghua.edu.cn/info/1033/1271.htm)
+
+社交媒体与友链
+------
+- 📺 **B 站**: [space.bilibili.com/492814737](https://space.bilibili.com/492814737)
+- 💻 **GitHub**: [github.com/Tonystarkw12](https://github.com/Tonystarkw12)
+- 📱 **微信公众号**: 星灵技术
+- 📘 **知乎**: 星灵技术
+- 📕 **小红书**: 星灵技术
+- 🌟 **知识星球**: 星灵技术
 
 个人生活
 ------

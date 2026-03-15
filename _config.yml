@@ -23,13 +23,13 @@ repository               : "academicpages/academicpages.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "证件照.jpg"
   name             : "周子航"
   pronouns         : # example: "she/her"
   bio              : "清华大学博士生 | 程序员 | 小说作者 | 音乐爱好者"
   location         : "北京，清华大学"
   employer         : "清华大学"
-  uri              : # URL
+  uri              : "https://life.tsinghua.edu.cn/info/1033/1271.htm"
   email            : "zhou-zh23@mails.tsinghua.edu.cn" 
 
   # Academic websites
@@ -51,8 +51,8 @@ author:
   bitbucket        : # Username - Update with your username on the site
   codepen          : # Username
   dribbble         : # Username
-  github           : "zhou-zh23"
-  kaggle           : # Username  
+  github           : "Tonystarkw12"
+  kaggle           : # Username
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
   # Social media
@@ -80,7 +80,11 @@ author:
   wikipedia        : # Username
   xing             : # Username
   youtube          : # Username
-  zhihu            : # Username
+  zhihu            : "星灵技术"
+  bilibili         : "492814737"
+  xiaohongshu      : "星灵技术"
+  weixin           : "星灵技术"
+  zhishixingqiu    : "星灵技术"
 
 # Publication Category - The following the list of publication categories and their headings
 publication_category:
