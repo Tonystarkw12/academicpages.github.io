@@ -22,3 +22,9 @@ package-lock.json
 # Ignore files created by MacOS
 .DS_Store
 .gitnexus
+
+# === Environment (added by batch) ===
+.env
+.env.local
+.env.*.local
+
