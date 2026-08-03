@@ -7,16 +7,15 @@
 # server process.
 
 # Basic Site Settings
-locale                   : "en-US"
+locale                   : "zh-CN"
 site_theme               : "default" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
-title                    : "周子航 | 个人主页"
+title                    : "周子航 | NMR AI 研究与开发"
 title_separator          : "-"
 name                     : &name "周子航"
-description              : &description "清华大学博士生的学术与个人主页"   # Update this with a general description of your site, this is the default if not overridden by a page
-url                      : https://academicpages.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
-                                                           # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
-baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "academicpages/academicpages.github.io"
+description              : &description "清华大学 NMR AI 博士生，专注于脉冲程序生成、模型微调与 AI 科研工具开发"
+url                      : https://tonystarkw12.github.io
+baseurl                  : "/academicpages.github.io"
+repository               : "Tonystarkw12/academicpages.github.io"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
@@ -26,11 +25,11 @@ author:
   avatar           : "证件照.jpg"
   name             : "周子航"
   pronouns         : # example: "she/her"
-  bio              : "清华大学博士生 | 程序员 | 小说作者 | 音乐爱好者"
-  location         : "北京，清华大学"
+  bio              : "清华大学博士生 | NMR AI | 模型微调 | 科研工具开发"
+  location         : "北京"
   employer         : "清华大学"
-  uri              : "https://life.tsinghua.edu.cn/info/1033/1271.htm"
-  email            : "zhou-zh23@mails.tsinghua.edu.cn" 
+  uri              :
+  email            : "zhou-zh23@mails.tsinghua.edu.cn"
 
   # Academic websites
   academia         : # URL
@@ -38,10 +37,10 @@ author:
   googlescholar    : "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
   inspire-hep      : # URL
   impactstory      : # URL
-  orcid            : "https://orcid.org/yourorcidurl"
+  orcid            :
   semantic         : # URL
   ssrn             : # URL
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+  pubmed           :
   researchgate     : # URL
   scopus           : # URL
   zotero           : # URL
@@ -57,7 +56,7 @@ author:
 
   # Social media
   artstation       : # Username
-  bluesky          : "bsky.app" # Replace this with you Bluesky username
+  bluesky          : # Username
   facebook         : # Username
   flickr           : # Username
   foursquare       : # Username

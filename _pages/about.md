@@ -9,102 +9,60 @@ redirect_from:
 
 关于我
 ======
-我是一名在**北京清华大学**攻读博士学位的研究生，主要工作是**写代码**，熟练掌握 **Python、Bash、Docker** 等计算机技术。我使用的是 Windows 系统，服务器使用 Ubuntu 系统。
 
-基本信息
+我目前在**清华大学攻读博士学位**，研究方向聚焦 **NMR 与人工智能**。现阶段主要工作是微调 NMR pulse program 生成模型，并建立可靠的 benchmark，评估 AI 生成脉冲程序的质量。
+
+我也持续开发 AI 辅助科研工具，常用技术包括 **Python、Bash、Docker 与 Linux**。做工程时，我更看重代码质量、可复现性和稳健交付。
+
+研究方向
 ------
-- 📧 邮箱：zhou-zh23@mails.tsinghua.edu.cn
-- 📍 位置：北京，清华大学
-- 🎂 身高：1.73 米
-- ⚖️ 体重：57 千克
-- 🧩 性格类型：INFJ-T
 
-我的项目
+- **NMR pulse program 生成**：构建和微调面向 NMR 脉冲程序的生成模型
+- **模型评估**：围绕 9 个测试用例建立 benchmark，并使用 NMRSIM 验证生成质量
+- **科研数据工程**：制作高质量 NMR pulse program 微调数据集
+- **AI 科研工具**：开发帮助研究者生成、解析、比较和验证脉冲程序的工具
+
+项目
+----
+
+### AI NMR Pulse Sequence 生成
+
+[nmr.201014.xyz](https://nmr.201014.xyz)
+
+用 AI 生成并评估 NMR pulse sequence，目标是提升脉冲程序研发效率和结果可靠性。
+
+### 开源项目
+
+我主要维护以下 NMR AI 与 Python 项目：
+
+- [spinachpython](https://github.com/Tonystarkw12/spinachpython)：NMR 与 Python 工具
+- [pp2label](https://github.com/Tonystarkw12/pp2label)：脉冲程序数据处理
+- [NMRagent](https://github.com/Tonystarkw12/NMRagent)：面向 NMR 的 AI Agent
+- [prodopy-wt](https://github.com/Tonystarkw12/prodopy-wt)：Python 工程项目
+
+### 其他作品
+
+- [AI 情侣匹配](https://ailove.201014.xyz)：个人开发的 AI 匹配应用
+- [技术博客](http://ugreen.201014.xyz:8090)：记录技术实践与思考
+- [长篇小说《星灵一》](https://fanqienovel.com/page/7513553317675420734?enter_from=search)：围绕“人为什么活着”展开的科幻小说；累计写作约 57 万字
+
+技能
+----
+
+- **编程与工程**：Python、Bash、Docker、Linux、Git
+- **AI 与模型**：大语言模型微调、数据集构建、Agent 工具开发、模型评估
+- **科研方向**：NMR pulse program、脉冲序列生成、NMRSIM 验证
+
+兴趣
+----
+
+工作之外，我喜欢小说创作、钢琴、游泳、影视与游戏。常听 Starset 和泽野弘之，也喜欢《新世纪福音战士》《黑客帝国》《艾尔登法环》《赛博朋克 2077》等作品。
+
+联系我
 ------
-### 🤖 AI 与科研项目
 
-**AI NMR Pulse Sequence 生成**
-[https://nmr.201014.xyz](https://nmr.201014.xyz)
-> 用 AI 生成 NMR pulse sequence 的项目
-
-**AI 情侣匹配**
-[https://ailove.201014.xyz](https://ailove.201014.xyz)
-> 个人开发的软件，用 AI 匹配情侣
-
-### 📝 博客
-[http://ugreen.201014.xyz:8090](http://ugreen.201014.xyz:8090)
-
-### 👨‍🏫 导师介绍
-[清华大学实验室网站](https://life.tsinghua.edu.cn/info/1033/1271.htm)
-
-我的性格
-------
-我性格**非常内向**，也很**容易自卑**，不太擅长和别人交往。我一直想要改进这一点。我曾经患有**抑郁症**，总是容易抱有消极的想法，短暂地吃过一段时间的曲唑酮。我总是会有新奇的想法，但是有的时候会产生一些极端想法。
-
-我的爱好
-------
-### 🎵 音乐
-我喜欢音乐，特别是：
-- **Starset 乐队**
-- **泽野弘之**的歌曲
-- 带有**强烈节奏性**的歌曲
-- 舒缓忧伤的歌曲
-- 我会**弹钢琴**
-
-### 🎬 影视与二次元
-- 喜欢**影视作品**和**二次元**文化
-- 最喜欢的电视剧：《**新世纪福音战士**》
-- 喜欢的电影：《黑客帝国》、《变形金刚》、《进击的巨人》、《复仇者联盟》、《无敌破坏王》等
-
-### 🎮 游戏
-- 《**艾尔登法环**》
-- 《**赛博朋克 2077**》
-- 《**明日方舟**》
-
-### 🏊 运动
-- 喜欢**游泳**
-- 平日里会抽出时间**锻炼**
-
-### 📚 写作
-我最大的爱好是**写小说**，目前已经写了**57 万字**。
-
-**长篇小说《星灵一》**
-[番茄小说在线阅读](https://fanqienovel.com/page/7513553317675420734?enter_from=search)
-> 讲述了人为什么活着的终极答案
-
-我的项目
-------
-### 🤖 AI 与科研项目
-
-**AI NMR Pulse Sequence 生成**
-[https://nmr.201014.xyz](https://nmr.201014.xyz)
-> 用 AI 生成 NMR pulse sequence 的项目
-
-**AI 情侣匹配**
-[https://ailove.201014.xyz](https://ailove.201014.xyz)
-> 个人开发的软件，用 AI 匹配情侣
-
-### 📝 博客
-[http://ugreen.201014.xyz:8090](http://ugreen.201014.xyz:8090)
-
-### 👨‍🏫 导师介绍
-[清华大学实验室网站](https://life.tsinghua.edu.cn/info/1033/1271.htm)
-
-社交媒体与友链
-------
-- 📺 **B 站**: [space.bilibili.com/492814737](https://space.bilibili.com/492814737)
-- 💻 **GitHub**: [github.com/Tonystarkw12](https://github.com/Tonystarkw12)
-- 📱 **微信公众号**: 星灵技术
-- 📘 **知乎**: 星灵技术
-- 📕 **小红书**: 星灵技术
-- 🌟 **知识星球**: 星灵技术
-
-个人生活
-------
-我长得比较帅，目前没有女朋友，但是一直想要找一个。
-
-我喜欢听一些**掏耳朵的 ASMR**，这会让我感到放松。
-
----
-
-*这就是我，一个复杂而真实的人。*
+- 📧 [zhou-zh23@mails.tsinghua.edu.cn](mailto:zhou-zh23@mails.tsinghua.edu.cn)
+- 💻 [GitHub](https://github.com/Tonystarkw12)
+- 📺 [Bilibili](https://space.bilibili.com/492814737)
+- 🎓 [Google Scholar](https://scholar.google.com/citations?user=PS_CX0AAAAAJ)
+- 📘 知乎 / 微信公众号 / 小红书 / 知识星球：**星灵技术**
