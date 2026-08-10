@@ -1,0 +1,11 @@
+wiki_style: caveman
+editor_files:
+  agents_md: true
+provider: ollama
+model: qwen3.6:35b
+embedder: ollama
+embedding_model: ryanshillington/Qwen3-Embedding-8B:latest
+reasoning: auto
+distill:
+  commands:
+    enabled: true

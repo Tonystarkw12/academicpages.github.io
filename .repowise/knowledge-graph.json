@@ -1,0 +1,2057 @@
+{
+  "version": "1.0.0",
+  "project": {
+    "name": "academicpages.github.io",
+    "is_monorepo": false,
+    "total_files": 77,
+    "entry_points": [],
+    "tech_stack": [
+      {
+        "name": "Docker",
+        "version": null,
+        "category": "infra"
+      },
+      {
+        "name": "Docker Compose",
+        "version": null,
+        "category": "infra"
+      },
+      {
+        "name": "Node.js",
+        "version": ">= 0.10.0",
+        "category": "language"
+      },
+      {
+        "name": "Ruby",
+        "version": null,
+        "category": "language"
+      }
+    ],
+    "entry_candidates": [],
+    "graph_mode": "flow"
+  },
+  "nodes": [
+    {
+      "id": "class:scripts/cv_markdown_to_json.py:DateTimeEncoder",
+      "type": "class",
+      "filePath": "scripts/cv_markdown_to_json.py",
+      "name": "DateTimeEncoder",
+      "language": "python",
+      "tags": [],
+      "summary": ""
+    },
+    {
+      "id": "file:.claude/skills/gitnexus/debugging/SKILL.md",
+      "type": "document",
+      "filePath": ".claude/skills/gitnexus/debugging/SKILL.md",
+      "language": "markdown",
+      "symbolCount": 0,
+      "lineCount": 74,
+      "complexity": "simple",
+      "pagerank": 0.012845,
+      "communityId": 1,
+      "tags": [
+        "low_signal_summary"
+      ],
+      "summary": "Documentation: SKILL.md."
+    },
+    {
+      "id": "file:.claude/skills/gitnexus/exploring/SKILL.md",
+      "type": "document",
+      "filePath": ".claude/skills/gitnexus/exploring/SKILL.md",
+      "language": "markdown",
+      "symbolCount": 0,
+      "lineCount": 68,
+      "complexity": "simple",
+      "pagerank": 0.012845,
+      "communityId": 2,
+      "tags": [
+        "low_signal_summary"
+      ],
+      "summary": "Documentation: SKILL.md."
+    },
+    {
+      "id": "file:.claude/skills/gitnexus/impact-analysis/SKILL.md",
+      "type": "document",
+      "filePath": ".claude/skills/gitnexus/impact-analysis/SKILL.md",
+      "language": "markdown",
+      "symbolCount": 0,
+      "lineCount": 67,
+      "complexity": "simple",
+      "pagerank": 0.012845,
+      "communityId": 3,
+      "tags": [
+        "low_signal_summary"
+      ],
+      "summary": "Documentation: SKILL.md."
+    },
+    {
+      "id": "file:.claude/skills/gitnexus/refactoring/SKILL.md",
+      "type": "document",
+      "filePath": ".claude/skills/gitnexus/refactoring/SKILL.md",
+      "language": "markdown",
+      "symbolCount": 0,
+      "lineCount": 98,
+      "complexity": "simple",
+      "pagerank": 0.012845,
+      "communityId": 4,
+      "tags": [
+        "low_signal_summary"
+      ],
+      "summary": "Documentation: SKILL.md."
+    },
+    {
+      "id": "file:.devcontainer/devcontainer.json",
+      "type": "config",
+      "filePath": ".devcontainer/devcontainer.json",
+      "language": "json",
+      "symbolCount": 0,
+      "lineCount": 9,
+      "complexity": "simple",
+      "pagerank": 0.012845,
+      "communityId": 5,
+      "tags": [
+        "config",
+        "low_signal_summary"
+      ],
+      "summary": "Configuration file: devcontainer.json."
+    },
+    {
+      "id": "file:.github/ISSUE_TEMPLATE/bug_report.md",
+      "type": "document",
+      "filePath": ".github/ISSUE_TEMPLATE/bug_report.md",
+      "language": "markdown",
+      "symbolCount": 0,
+      "lineCount": 21,
+      "complexity": "simple",
+      "pagerank": 0.012845,
+      "communityId": 6,
+      "tags": [],
+      "summary": "Issue template for reporting bugs."
+    },
+    {
+      "id": "file:.github/ISSUE_TEMPLATE/feature_request.md",
+      "type": "document",
+      "filePath": ".github/ISSUE_TEMPLATE/feature_request.md",
+      "language": "markdown",
+      "symbolCount": 0,
+      "lineCount": 14,
+      "complexity": "simple",
+      "pagerank": 0.012845,
+      "communityId": 7,
+      "tags": [],
+      "summary": "Issue template for proposing features."
+    },
+    {
+      "id": "file:.github/workflows/scrape_talks.yml",
+      "type": "pipeline",
+      "filePath": ".github/workflows/scrape_talks.yml",
+      "language": "yaml",
+      "symbolCount": 0,
+      "lineCount": 26,
+      "complexity": "simple",
+      "pagerank": 0.012845,
+      "communityId": 8,
+      "tags": [
+        "config",
+        "ci"
+      ],
+      "summary": "GitHub Actions CI/CD workflow definition."
+    },
+    {
+      "id": "file:.spec-workflow/templates/design-template.md",
+      "type": "document",
+      "filePath": ".spec-workflow/templates/design-template.md",
+      "language": "markdown",
+      "symbolCount": 0,
+      "lineCount": 64,
+      "complexity": "simple",
+      "pagerank": 0.012845,
+      "communityId": 9,
+      "tags": [
+        "low_signal_summary"
+      ],
+      "summary": "Documentation: design-template.md."
+    },
+    {
+      "id": "file:.spec-workflow/templates/product-template.md",
+      "type": "document",
+      "filePath": ".spec-workflow/templates/product-template.md",
+      "language": "markdown",
+      "symbolCount": 0,
+      "lineCount": 38,
+      "complexity": "simple",
+      "pagerank": 0.012845,
+      "communityId": 10,
+      "tags": [
+        "low_signal_summary"
+      ],
+      "summary": "Documentation: product-template.md."
+    },
+    {
+      "id": "file:.spec-workflow/templates/requirements-template.md",
+      "type": "document",
+      "filePath": ".spec-workflow/templates/requirements-template.md",
+      "language": "markdown",
+      "symbolCount": 0,
+      "lineCount": 32,
+      "complexity": "simple",
+      "pagerank": 0.012845,
+      "communityId": 11,
+      "tags": [
+        "low_signal_summary"
+      ],
+      "summary": "Documentation: requirements-template.md."
+    },
+    {
+      "id": "file:.spec-workflow/templates/structure-template.md",
+      "type": "document",
+      "filePath": ".spec-workflow/templates/structure-template.md",
+      "language": "markdown",
+      "symbolCount": 0,
+      "lineCount": 114,
+      "complexity": "moderate",
+      "pagerank": 0.012845,
+      "communityId": 12,
+      "tags": [
+        "low_signal_summary"
+      ],
+      "summary": "Documentation: structure-template.md."
+    },
+    {
+      "id": "file:.spec-workflow/templates/tasks-template.md",
+      "type": "document",
+      "filePath": ".spec-workflow/templates/tasks-template.md",
+      "language": "markdown",
+      "symbolCount": 0,
+      "lineCount": 345,
+      "complexity": "moderate",
+      "pagerank": 0.012845,
+      "communityId": 13,
+      "tags": [
+        "low_signal_summary"
+      ],
+      "summary": "Documentation: tasks-template.md."
+    },
+    {
+      "id": "file:.spec-workflow/templates/tech-template.md",
+      "type": "document",
+      "filePath": ".spec-workflow/templates/tech-template.md",
+      "language": "markdown",
+      "symbolCount": 0,
+      "lineCount": 108,
+      "complexity": "moderate",
+      "pagerank": 0.012845,
+      "communityId": 14,
+      "tags": [
+        "low_signal_summary"
+      ],
+      "summary": "Documentation: tech-template.md."
+    },
+    {
+      "id": "file:.spec-workflow/user-templates/README.md",
+      "type": "document",
+      "filePath": ".spec-workflow/user-templates/README.md",
+      "language": "markdown",
+      "symbolCount": 0,
+      "lineCount": 59,
+      "complexity": "simple",
+      "pagerank": 0.012845,
+      "communityId": 15,
+      "tags": [],
+      "summary": "Project overview and entry point for new readers."
+    },
+    {
+      "id": "file:AGENTS.md",
+      "type": "document",
+      "filePath": "AGENTS.md",
+      "language": "markdown",
+      "symbolCount": 0,
+      "lineCount": 66,
+      "complexity": "simple",
+      "pagerank": 0.012845,
+      "communityId": 16,
+      "tags": [
+        "low_signal_summary"
+      ],
+      "summary": "Documentation: AGENTS.md."
+    },
+    {
+      "id": "file:CLAUDE.md",
+      "type": "document",
+      "filePath": "CLAUDE.md",
+      "language": "markdown",
+      "symbolCount": 0,
+      "lineCount": 66,
+      "complexity": "simple",
+      "pagerank": 0.012845,
+      "communityId": 17,
+      "tags": [],
+      "summary": "Repository instructions and context for AI coding agents."
+    },
+    {
+      "id": "file:CONTRIBUTING.md",
+      "type": "document",
+      "filePath": "CONTRIBUTING.md",
+      "language": "markdown",
+      "symbolCount": 0,
+      "lineCount": 17,
+      "complexity": "simple",
+      "pagerank": 0.012845,
+      "communityId": 18,
+      "tags": [],
+      "summary": "How to contribute: workflow, standards, and review process."
+    },
+    {
+      "id": "file:Dockerfile",
+      "type": "service",
+      "filePath": "Dockerfile",
+      "language": "dockerfile",
+      "symbolCount": 1,
+      "lineCount": 21,
+      "complexity": "simple",
+      "pagerank": 0.012845,
+      "communityId": 19,
+      "tags": [
+        "config",
+        "infra"
+      ],
+      "summary": "Container image build definition."
+    },
+    {
+      "id": "file:README.md",
+      "type": "document",
+      "filePath": "README.md",
+      "language": "markdown",
+      "symbolCount": 0,
+      "lineCount": 180,
+      "complexity": "moderate",
+      "pagerank": 0.012845,
+      "communityId": 20,
+      "tags": [],
+      "summary": "Project overview and entry point for new readers."
+    },
+    {
+      "id": "file:_config.yml",
+      "type": "config",
+      "filePath": "_config.yml",
+      "language": "yaml",
+      "symbolCount": 0,
+      "lineCount": 266,
+      "complexity": "moderate",
+      "pagerank": 0.012845,
+      "communityId": 21,
+      "tags": [
+        "config",
+        "low_signal_summary"
+      ],
+      "summary": "Configuration file: _config.yml."
+    },
+    {
+      "id": "file:_config_docker.yml",
+      "type": "config",
+      "filePath": "_config_docker.yml",
+      "language": "yaml",
+      "symbolCount": 0,
+      "lineCount": 0,
+      "complexity": "simple",
+      "pagerank": 0.012845,
+      "communityId": 22,
+      "tags": [
+        "config",
+        "low_signal_summary"
+      ],
+      "summary": "Configuration file: _config_docker.yml."
+    },
+    {
+      "id": "file:_data/authors.yml",
+      "type": "config",
+      "filePath": "_data/authors.yml",
+      "language": "yaml",
+      "symbolCount": 0,
+      "lineCount": 6,
+      "complexity": "simple",
+      "pagerank": 0.012845,
+      "communityId": 23,
+      "tags": [
+        "config",
+        "low_signal_summary"
+      ],
+      "summary": "Configuration file: authors.yml."
+    },
+    {
+      "id": "file:_data/comments/layout-comments/comment-1470944006665.yml",
+      "type": "config",
+      "filePath": "_data/comments/layout-comments/comment-1470944006665.yml",
+      "language": "yaml",
+      "symbolCount": 0,
+      "lineCount": 6,
+      "complexity": "simple",
+      "pagerank": 0.012845,
+      "communityId": 24,
+      "tags": [
+        "config",
+        "low_signal_summary"
+      ],
+      "summary": "Configuration file: comment-1470944006665.yml."
+    },
+    {
+      "id": "file:_data/comments/layout-comments/comment-1470944162041.yml",
+      "type": "config",
+      "filePath": "_data/comments/layout-comments/comment-1470944162041.yml",
+      "language": "yaml",
+      "symbolCount": 0,
+      "lineCount": 8,
+      "complexity": "simple",
+      "pagerank": 0.012845,
+      "communityId": 25,
+      "tags": [
+        "config",
+        "low_signal_summary"
+      ],
+      "summary": "Configuration file: comment-1470944162041.yml."
+    },
+    {
+      "id": "file:_data/comments/markup-syntax-highlighting/comment-1470969665387.yml",
+      "type": "config",
+      "filePath": "_data/comments/markup-syntax-highlighting/comment-1470969665387.yml",
+      "language": "yaml",
+      "symbolCount": 0,
+      "lineCount": 9,
+      "complexity": "simple",
+      "pagerank": 0.012845,
+      "communityId": 26,
+      "tags": [
+        "config",
+        "low_signal_summary"
+      ],
+      "summary": "Configuration file: comment-1470969665387.yml."
+    },
+    {
+      "id": "file:_data/comments/welcome-to-jekyll/comment-1470942205700.yml",
+      "type": "config",
+      "filePath": "_data/comments/welcome-to-jekyll/comment-1470942205700.yml",
+      "language": "yaml",
+      "symbolCount": 0,
+      "lineCount": 12,
+      "complexity": "simple",
+      "pagerank": 0.012845,
+      "communityId": 27,
+      "tags": [
+        "config",
+        "low_signal_summary"
+      ],
+      "summary": "Configuration file: comment-1470942205700.yml."
+    },
+    {
+      "id": "file:_data/comments/welcome-to-jekyll/comment-1470942247755.yml",
+      "type": "config",
+      "filePath": "_data/comments/welcome-to-jekyll/comment-1470942247755.yml",
+      "language": "yaml",
+      "symbolCount": 0,
+      "lineCount": 4,
+      "complexity": "simple",
+      "pagerank": 0.012845,
+      "communityId": 28,
+      "tags": [
+        "config",
+        "low_signal_summary"
+      ],
+      "summary": "Configuration file: comment-1470942247755.yml."
+    },
+    {
+      "id": "file:_data/comments/welcome-to-jekyll/comment-1470942265819.yml",
+      "type": "config",
+      "filePath": "_data/comments/welcome-to-jekyll/comment-1470942265819.yml",
+      "language": "yaml",
+      "symbolCount": 0,
+      "lineCount": 5,
+      "complexity": "simple",
+      "pagerank": 0.012845,
+      "communityId": 29,
+      "tags": [
+        "config",
+        "low_signal_summary"
+      ],
+      "summary": "Configuration file: comment-1470942265819.yml."
+    },
+    {
+      "id": "file:_data/comments/welcome-to-jekyll/comment-1470942493518.yml",
+      "type": "config",
+      "filePath": "_data/comments/welcome-to-jekyll/comment-1470942493518.yml",
+      "language": "yaml",
+      "symbolCount": 0,
+      "lineCount": 8,
+      "complexity": "simple",
+      "pagerank": 0.012845,
+      "communityId": 30,
+      "tags": [
+        "config",
+        "low_signal_summary"
+      ],
+      "summary": "Configuration file: comment-1470942493518.yml."
+    },
+    {
+      "id": "file:_data/cv.json",
+      "type": "config",
+      "filePath": "_data/cv.json",
+      "language": "json",
+      "symbolCount": 0,
+      "lineCount": 105,
+      "complexity": "moderate",
+      "pagerank": 0.012845,
+      "communityId": 31,
+      "tags": [
+        "config",
+        "low_signal_summary"
+      ],
+      "summary": "Configuration file: cv.json."
+    },
+    {
+      "id": "file:_data/navigation.yml",
+      "type": "config",
+      "filePath": "_data/navigation.yml",
+      "language": "yaml",
+      "symbolCount": 0,
+      "lineCount": 20,
+      "complexity": "simple",
+      "pagerank": 0.012845,
+      "communityId": 32,
+      "tags": [
+        "config",
+        "low_signal_summary"
+      ],
+      "summary": "Configuration file: navigation.yml."
+    },
+    {
+      "id": "file:_data/ui-text.yml",
+      "type": "config",
+      "filePath": "_data/ui-text.yml",
+      "language": "yaml",
+      "symbolCount": 0,
+      "lineCount": 364,
+      "complexity": "moderate",
+      "pagerank": 0.012845,
+      "communityId": 33,
+      "tags": [
+        "config",
+        "low_signal_summary"
+      ],
+      "summary": "Configuration file: ui-text.yml."
+    },
+    {
+      "id": "file:_drafts/post-draft.md",
+      "type": "document",
+      "filePath": "_drafts/post-draft.md",
+      "language": "markdown",
+      "symbolCount": 0,
+      "lineCount": 74,
+      "complexity": "simple",
+      "pagerank": 0.012845,
+      "communityId": 34,
+      "tags": [
+        "low_signal_summary"
+      ],
+      "summary": "Documentation: post-draft.md."
+    },
+    {
+      "id": "file:_pages/404.md",
+      "type": "document",
+      "filePath": "_pages/404.md",
+      "language": "markdown",
+      "symbolCount": 0,
+      "lineCount": 3,
+      "complexity": "simple",
+      "pagerank": 0.012845,
+      "communityId": 35,
+      "tags": [
+        "low_signal_summary"
+      ],
+      "summary": "Documentation: 404.md."
+    },
+    {
+      "id": "file:_pages/about.md",
+      "type": "document",
+      "filePath": "_pages/about.md",
+      "language": "markdown",
+      "symbolCount": 0,
+      "lineCount": 83,
+      "complexity": "simple",
+      "pagerank": 0.012845,
+      "communityId": 36,
+      "tags": [
+        "low_signal_summary"
+      ],
+      "summary": "Documentation: about.md."
+    },
+    {
+      "id": "file:_pages/archive-layout-with-content.md",
+      "type": "document",
+      "filePath": "_pages/archive-layout-with-content.md",
+      "language": "markdown",
+      "symbolCount": 0,
+      "lineCount": 101,
+      "complexity": "moderate",
+      "pagerank": 0.012845,
+      "communityId": 37,
+      "tags": [
+        "low_signal_summary"
+      ],
+      "summary": "Documentation: archive-layout-with-content.md."
+    },
+    {
+      "id": "file:_pages/cv-json.md",
+      "type": "document",
+      "filePath": "_pages/cv-json.md",
+      "language": "markdown",
+      "symbolCount": 0,
+      "lineCount": 9,
+      "complexity": "simple",
+      "pagerank": 0.012845,
+      "communityId": 38,
+      "tags": [
+        "low_signal_summary"
+      ],
+      "summary": "Documentation: cv-json.md."
+    },
+    {
+      "id": "file:_pages/cv.md",
+      "type": "document",
+      "filePath": "_pages/cv.md",
+      "language": "markdown",
+      "symbolCount": 0,
+      "lineCount": 32,
+      "complexity": "simple",
+      "pagerank": 0.012845,
+      "communityId": 39,
+      "tags": [
+        "low_signal_summary"
+      ],
+      "summary": "Documentation: cv.md."
+    },
+    {
+      "id": "file:_pages/markdown.md",
+      "type": "document",
+      "filePath": "_pages/markdown.md",
+      "language": "markdown",
+      "symbolCount": 0,
+      "lineCount": 326,
+      "complexity": "moderate",
+      "pagerank": 0.012845,
+      "communityId": 40,
+      "tags": [
+        "low_signal_summary"
+      ],
+      "summary": "Documentation: markdown.md."
+    },
+    {
+      "id": "file:_pages/non-menu-page.md",
+      "type": "document",
+      "filePath": "_pages/non-menu-page.md",
+      "language": "markdown",
+      "symbolCount": 0,
+      "lineCount": 5,
+      "complexity": "simple",
+      "pagerank": 0.012845,
+      "communityId": 41,
+      "tags": [
+        "low_signal_summary"
+      ],
+      "summary": "Documentation: non-menu-page.md."
+    },
+    {
+      "id": "file:_pages/sitemap.md",
+      "type": "document",
+      "filePath": "_pages/sitemap.md",
+      "language": "markdown",
+      "symbolCount": 0,
+      "lineCount": 25,
+      "complexity": "simple",
+      "pagerank": 0.012845,
+      "communityId": 42,
+      "tags": [
+        "low_signal_summary"
+      ],
+      "summary": "Documentation: sitemap.md."
+    },
+    {
+      "id": "file:_pages/terms.md",
+      "type": "document",
+      "filePath": "_pages/terms.md",
+      "language": "markdown",
+      "symbolCount": 0,
+      "lineCount": 47,
+      "complexity": "simple",
+      "pagerank": 0.012845,
+      "communityId": 43,
+      "tags": [
+        "low_signal_summary"
+      ],
+      "summary": "Documentation: terms.md."
+    },
+    {
+      "id": "file:_portfolio/portfolio-1.md",
+      "type": "document",
+      "filePath": "_portfolio/portfolio-1.md",
+      "language": "markdown",
+      "symbolCount": 0,
+      "lineCount": 8,
+      "complexity": "simple",
+      "pagerank": 0.012845,
+      "communityId": 44,
+      "tags": [
+        "low_signal_summary"
+      ],
+      "summary": "Documentation: portfolio-1.md."
+    },
+    {
+      "id": "file:_posts/2012-08-14-blog-post-1.md",
+      "type": "document",
+      "filePath": "_posts/2012-08-14-blog-post-1.md",
+      "language": "markdown",
+      "symbolCount": 0,
+      "lineCount": 10,
+      "complexity": "simple",
+      "pagerank": 0.012845,
+      "communityId": 45,
+      "tags": [
+        "low_signal_summary"
+      ],
+      "summary": "Documentation: 2012-08-14-blog-post-1.md."
+    },
+    {
+      "id": "file:_posts/2013-08-14-blog-post-2.md",
+      "type": "document",
+      "filePath": "_posts/2013-08-14-blog-post-2.md",
+      "language": "markdown",
+      "symbolCount": 0,
+      "lineCount": 10,
+      "complexity": "simple",
+      "pagerank": 0.012845,
+      "communityId": 46,
+      "tags": [
+        "low_signal_summary"
+      ],
+      "summary": "Documentation: 2013-08-14-blog-post-2.md."
+    },
+    {
+      "id": "file:_posts/2014-08-14-blog-post-3.md",
+      "type": "document",
+      "filePath": "_posts/2014-08-14-blog-post-3.md",
+      "language": "markdown",
+      "symbolCount": 0,
+      "lineCount": 10,
+      "complexity": "simple",
+      "pagerank": 0.012845,
+      "communityId": 47,
+      "tags": [
+        "low_signal_summary"
+      ],
+      "summary": "Documentation: 2014-08-14-blog-post-3.md."
+    },
+    {
+      "id": "file:_posts/2015-08-14-blog-post-4.md",
+      "type": "document",
+      "filePath": "_posts/2015-08-14-blog-post-4.md",
+      "language": "markdown",
+      "symbolCount": 0,
+      "lineCount": 10,
+      "complexity": "simple",
+      "pagerank": 0.012845,
+      "communityId": 48,
+      "tags": [
+        "low_signal_summary"
+      ],
+      "summary": "Documentation: 2015-08-14-blog-post-4.md."
+    },
+    {
+      "id": "file:_posts/2199-01-01-future-post.md",
+      "type": "document",
+      "filePath": "_posts/2199-01-01-future-post.md",
+      "language": "markdown",
+      "symbolCount": 0,
+      "lineCount": 6,
+      "complexity": "simple",
+      "pagerank": 0.012845,
+      "communityId": 49,
+      "tags": [
+        "low_signal_summary"
+      ],
+      "summary": "Documentation: 2199-01-01-future-post.md."
+    },
+    {
+      "id": "file:_publications/2009-10-01-paper-title-number-1.md",
+      "type": "document",
+      "filePath": "_publications/2009-10-01-paper-title-number-1.md",
+      "language": "markdown",
+      "symbolCount": 0,
+      "lineCount": 23,
+      "complexity": "simple",
+      "pagerank": 0.012845,
+      "communityId": 50,
+      "tags": [
+        "low_signal_summary"
+      ],
+      "summary": "Documentation: 2009-10-01-paper-title-number-1.md."
+    },
+    {
+      "id": "file:_publications/2010-10-01-paper-title-number-2.md",
+      "type": "document",
+      "filePath": "_publications/2010-10-01-paper-title-number-2.md",
+      "language": "markdown",
+      "symbolCount": 0,
+      "lineCount": 22,
+      "complexity": "simple",
+      "pagerank": 0.012845,
+      "communityId": 51,
+      "tags": [
+        "low_signal_summary"
+      ],
+      "summary": "Documentation: 2010-10-01-paper-title-number-2.md."
+    },
+    {
+      "id": "file:_publications/2015-10-01-paper-title-number-3.md",
+      "type": "document",
+      "filePath": "_publications/2015-10-01-paper-title-number-3.md",
+      "language": "markdown",
+      "symbolCount": 0,
+      "lineCount": 22,
+      "complexity": "simple",
+      "pagerank": 0.012845,
+      "communityId": 52,
+      "tags": [
+        "low_signal_summary"
+      ],
+      "summary": "Documentation: 2015-10-01-paper-title-number-3.md."
+    },
+    {
+      "id": "file:_publications/2024-02-17-paper-title-number-4.md",
+      "type": "document",
+      "filePath": "_publications/2024-02-17-paper-title-number-4.md",
+      "language": "markdown",
+      "symbolCount": 0,
+      "lineCount": 20,
+      "complexity": "simple",
+      "pagerank": 0.012845,
+      "communityId": 53,
+      "tags": [
+        "low_signal_summary"
+      ],
+      "summary": "Documentation: 2024-02-17-paper-title-number-4.md."
+    },
+    {
+      "id": "file:_publications/2025-06-08-paper-title-number-5.md",
+      "type": "document",
+      "filePath": "_publications/2025-06-08-paper-title-number-5.md",
+      "language": "markdown",
+      "symbolCount": 0,
+      "lineCount": 17,
+      "complexity": "simple",
+      "pagerank": 0.012845,
+      "communityId": 54,
+      "tags": [
+        "low_signal_summary"
+      ],
+      "summary": "Documentation: 2025-06-08-paper-title-number-5.md."
+    },
+    {
+      "id": "file:_talks/2012-03-01-talk-1.md",
+      "type": "document",
+      "filePath": "_talks/2012-03-01-talk-1.md",
+      "language": "markdown",
+      "symbolCount": 0,
+      "lineCount": 8,
+      "complexity": "simple",
+      "pagerank": 0.012845,
+      "communityId": 55,
+      "tags": [
+        "low_signal_summary"
+      ],
+      "summary": "Documentation: 2012-03-01-talk-1.md."
+    },
+    {
+      "id": "file:_talks/2013-03-01-tutorial-1.md",
+      "type": "document",
+      "filePath": "_talks/2013-03-01-tutorial-1.md",
+      "language": "markdown",
+      "symbolCount": 0,
+      "lineCount": 11,
+      "complexity": "simple",
+      "pagerank": 0.012845,
+      "communityId": 56,
+      "tags": [
+        "low_signal_summary"
+      ],
+      "summary": "Documentation: 2013-03-01-tutorial-1.md."
+    },
+    {
+      "id": "file:_talks/2014-02-01-talk-2.md",
+      "type": "document",
+      "filePath": "_talks/2014-02-01-talk-2.md",
+      "language": "markdown",
+      "symbolCount": 0,
+      "lineCount": 9,
+      "complexity": "simple",
+      "pagerank": 0.012845,
+      "communityId": 57,
+      "tags": [
+        "low_signal_summary"
+      ],
+      "summary": "Documentation: 2014-02-01-talk-2.md."
+    },
+    {
+      "id": "file:_talks/2014-03-01-talk-3.md",
+      "type": "document",
+      "filePath": "_talks/2014-03-01-talk-3.md",
+      "language": "markdown",
+      "symbolCount": 0,
+      "lineCount": 10,
+      "complexity": "simple",
+      "pagerank": 0.012845,
+      "communityId": 58,
+      "tags": [
+        "low_signal_summary"
+      ],
+      "summary": "Documentation: 2014-03-01-talk-3.md."
+    },
+    {
+      "id": "file:_teaching/2014-spring-teaching-1.md",
+      "type": "document",
+      "filePath": "_teaching/2014-spring-teaching-1.md",
+      "language": "markdown",
+      "symbolCount": 0,
+      "lineCount": 8,
+      "complexity": "simple",
+      "pagerank": 0.012845,
+      "communityId": 59,
+      "tags": [
+        "low_signal_summary"
+      ],
+      "summary": "Documentation: 2014-spring-teaching-1.md."
+    },
+    {
+      "id": "file:_teaching/2015-spring-teaching-2.md",
+      "type": "document",
+      "filePath": "_teaching/2015-spring-teaching-2.md",
+      "language": "markdown",
+      "symbolCount": 0,
+      "lineCount": 8,
+      "complexity": "simple",
+      "pagerank": 0.012845,
+      "communityId": 60,
+      "tags": [
+        "low_signal_summary"
+      ],
+      "summary": "Documentation: 2015-spring-teaching-2.md."
+    },
+    {
+      "id": "file:assets/js/_main.js",
+      "type": "file",
+      "filePath": "assets/js/_main.js",
+      "language": "javascript",
+      "symbolCount": 3,
+      "lineCount": 134,
+      "complexity": "moderate",
+      "pagerank": 0.012845,
+      "communityId": 0,
+      "tags": [],
+      "summary": "Application module _main defining determineThemeSetting, determineComputedTheme, setTheme.",
+      "primaryOwner": "rjzupkoii"
+    },
+    {
+      "id": "file:assets/js/collapse.js",
+      "type": "file",
+      "filePath": "assets/js/collapse.js",
+      "language": "javascript",
+      "symbolCount": 0,
+      "lineCount": 13,
+      "complexity": "simple",
+      "pagerank": 0.012845,
+      "communityId": 61,
+      "tags": [],
+      "summary": "Application module collapse.",
+      "primaryOwner": "Stuart Geiger"
+    },
+    {
+      "id": "file:assets/js/plugins/jquery.greedy-navigation.js",
+      "type": "file",
+      "filePath": "assets/js/plugins/jquery.greedy-navigation.js",
+      "language": "javascript",
+      "symbolCount": 1,
+      "lineCount": 57,
+      "complexity": "simple",
+      "pagerank": 0.012845,
+      "communityId": 62,
+      "tags": [],
+      "summary": "Docs & Tooling module jquery.greedy-navigation defining updateNav.",
+      "primaryOwner": "Stuart Geiger"
+    },
+    {
+      "id": "file:assets/js/theme.js",
+      "type": "file",
+      "filePath": "assets/js/theme.js",
+      "language": "javascript",
+      "symbolCount": 2,
+      "lineCount": 347,
+      "complexity": "moderate",
+      "pagerank": 0.023764,
+      "communityId": 0,
+      "tags": [],
+      "summary": "Application module theme (2 symbols).",
+      "primaryOwner": "rjzupkoii"
+    },
+    {
+      "id": "file:docker-compose.yaml",
+      "type": "service",
+      "filePath": "docker-compose.yaml",
+      "language": "yaml",
+      "symbolCount": 0,
+      "lineCount": 6,
+      "complexity": "simple",
+      "pagerank": 0.012845,
+      "communityId": 63,
+      "tags": [
+        "config",
+        "infra"
+      ],
+      "summary": "Multi-container service orchestration for local development."
+    },
+    {
+      "id": "file:images/manifest.json",
+      "type": "config",
+      "filePath": "images/manifest.json",
+      "language": "json",
+      "symbolCount": 0,
+      "lineCount": 6,
+      "complexity": "simple",
+      "pagerank": 0.012845,
+      "communityId": 64,
+      "tags": [
+        "config",
+        "low_signal_summary"
+      ],
+      "summary": "Configuration file: manifest.json."
+    },
+    {
+      "id": "file:markdown_generator/README.md",
+      "type": "document",
+      "filePath": "markdown_generator/README.md",
+      "language": "markdown",
+      "symbolCount": 0,
+      "lineCount": 22,
+      "complexity": "simple",
+      "pagerank": 0.012845,
+      "communityId": 65,
+      "tags": [],
+      "summary": "Project overview and entry point for new readers."
+    },
+    {
+      "id": "file:markdown_generator/publications.py",
+      "type": "file",
+      "filePath": "markdown_generator/publications.py",
+      "language": "python",
+      "symbolCount": 7,
+      "lineCount": 131,
+      "complexity": "moderate",
+      "pagerank": 0.012845,
+      "communityId": 66,
+      "tags": [],
+      "summary": "Application module publications defining create_md, html_escape, read.",
+      "primaryOwner": "rjzupkoii"
+    },
+    {
+      "id": "file:markdown_generator/pubsFromBib.py",
+      "type": "file",
+      "filePath": "markdown_generator/pubsFromBib.py",
+      "language": "python",
+      "symbolCount": 3,
+      "lineCount": 150,
+      "complexity": "moderate",
+      "pagerank": 0.012845,
+      "communityId": 67,
+      "tags": [],
+      "summary": "Application module pubsFromBib defining html_escape.",
+      "primaryOwner": "Mike Borowczak"
+    },
+    {
+      "id": "file:markdown_generator/talks.py",
+      "type": "file",
+      "filePath": "markdown_generator/talks.py",
+      "language": "python",
+      "symbolCount": 4,
+      "lineCount": 99,
+      "complexity": "moderate",
+      "pagerank": 0.012845,
+      "communityId": 68,
+      "tags": [],
+      "summary": "Application module talks defining html_escape.",
+      "primaryOwner": "Stuart Geiger"
+    },
+    {
+      "id": "file:package.json",
+      "type": "config",
+      "filePath": "package.json",
+      "language": "json",
+      "symbolCount": 0,
+      "lineCount": 32,
+      "complexity": "simple",
+      "pagerank": 0.012845,
+      "communityId": 69,
+      "tags": [
+        "config"
+      ],
+      "summary": "Node package manifest: dependencies, scripts, and metadata."
+    },
+    {
+      "id": "file:scripts/cv_markdown_to_json.py",
+      "type": "file",
+      "filePath": "scripts/cv_markdown_to_json.py",
+      "language": "python",
+      "symbolCount": 14,
+      "lineCount": 359,
+      "complexity": "moderate",
+      "pagerank": 0.012845,
+      "communityId": 70,
+      "tags": [],
+      "summary": "Docs & Tooling module cv_markdown_to_json defining DateTimeEncoder, default, parse_markdown_cv.",
+      "primaryOwner": "Yuan Chen"
+    },
+    {
+      "id": "file:scripts/update_cv_json.sh",
+      "type": "file",
+      "filePath": "scripts/update_cv_json.sh",
+      "language": "shell",
+      "symbolCount": 0,
+      "lineCount": 32,
+      "complexity": "simple",
+      "pagerank": 0.012845,
+      "communityId": 71,
+      "tags": [],
+      "summary": "Docs & Tooling module update_cv_json.",
+      "primaryOwner": "Yuan Chen"
+    },
+    {
+      "id": "file:talkmap.py",
+      "type": "file",
+      "filePath": "talkmap.py",
+      "language": "python",
+      "symbolCount": 8,
+      "lineCount": 46,
+      "complexity": "moderate",
+      "pagerank": 0.012845,
+      "communityId": 72,
+      "tags": [],
+      "summary": "Application module talkmap (8 symbols).",
+      "primaryOwner": "rjzupkoii"
+    },
+    {
+      "id": "file:talkmap/leaflet_dist/leaflet.markercluster-src.js",
+      "type": "file",
+      "filePath": "talkmap/leaflet_dist/leaflet.markercluster-src.js",
+      "language": "javascript",
+      "symbolCount": 0,
+      "lineCount": 1919,
+      "complexity": "complex",
+      "pagerank": 0.012845,
+      "communityId": 73,
+      "tags": [],
+      "summary": "Application module leaflet.markercluster-src.",
+      "primaryOwner": "Stuart Geiger"
+    },
+    {
+      "id": "file:talkmap/leaflet_dist/leaflet.markercluster.js",
+      "type": "file",
+      "filePath": "talkmap/leaflet_dist/leaflet.markercluster.js",
+      "language": "javascript",
+      "symbolCount": 0,
+      "lineCount": 799,
+      "complexity": "complex",
+      "pagerank": 0.012845,
+      "communityId": 74,
+      "tags": [],
+      "summary": "Application module leaflet.markercluster.",
+      "primaryOwner": "Stuart Geiger"
+    },
+    {
+      "id": "file:talkmap/org-locations.js",
+      "type": "file",
+      "filePath": "talkmap/org-locations.js",
+      "language": "javascript",
+      "symbolCount": 0,
+      "lineCount": 16,
+      "complexity": "simple",
+      "pagerank": 0.012845,
+      "communityId": 75,
+      "tags": [],
+      "summary": "Application module org-locations.",
+      "primaryOwner": "github-actions[bot]"
+    },
+    {
+      "id": "function:Dockerfile:cmd",
+      "type": "function",
+      "filePath": "Dockerfile",
+      "name": "cmd",
+      "language": "dockerfile",
+      "tags": [],
+      "summary": ""
+    },
+    {
+      "id": "function:assets/js/_main.js:determineComputedTheme",
+      "type": "function",
+      "filePath": "assets/js/_main.js",
+      "name": "determineComputedTheme",
+      "language": "javascript",
+      "tags": [],
+      "summary": ""
+    },
+    {
+      "id": "function:assets/js/_main.js:determineThemeSetting",
+      "type": "function",
+      "filePath": "assets/js/_main.js",
+      "name": "determineThemeSetting",
+      "language": "javascript",
+      "tags": [],
+      "summary": ""
+    },
+    {
+      "id": "function:assets/js/_main.js:setTheme",
+      "type": "function",
+      "filePath": "assets/js/_main.js",
+      "name": "setTheme",
+      "language": "javascript",
+      "tags": [],
+      "summary": ""
+    },
+    {
+      "id": "function:assets/js/plugins/jquery.greedy-navigation.js:updateNav",
+      "type": "function",
+      "filePath": "assets/js/plugins/jquery.greedy-navigation.js",
+      "name": "updateNav",
+      "language": "javascript",
+      "tags": [],
+      "summary": ""
+    },
+    {
+      "id": "function:markdown_generator/publications.py:create_md",
+      "type": "function",
+      "filePath": "markdown_generator/publications.py",
+      "name": "create_md",
+      "language": "python",
+      "tags": [],
+      "summary": ""
+    },
+    {
+      "id": "function:markdown_generator/publications.py:html_escape",
+      "type": "function",
+      "filePath": "markdown_generator/publications.py",
+      "name": "html_escape",
+      "language": "python",
+      "tags": [],
+      "summary": ""
+    },
+    {
+      "id": "function:markdown_generator/publications.py:read",
+      "type": "function",
+      "filePath": "markdown_generator/publications.py",
+      "name": "read",
+      "language": "python",
+      "tags": [],
+      "summary": ""
+    },
+    {
+      "id": "function:markdown_generator/pubsFromBib.py:html_escape",
+      "type": "function",
+      "filePath": "markdown_generator/pubsFromBib.py",
+      "name": "html_escape",
+      "language": "python",
+      "tags": [],
+      "summary": ""
+    },
+    {
+      "id": "function:markdown_generator/talks.py:html_escape",
+      "type": "function",
+      "filePath": "markdown_generator/talks.py",
+      "name": "html_escape",
+      "language": "python",
+      "tags": [],
+      "summary": ""
+    },
+    {
+      "id": "function:scripts/cv_markdown_to_json.py:create_cv_json",
+      "type": "function",
+      "filePath": "scripts/cv_markdown_to_json.py",
+      "name": "create_cv_json",
+      "language": "python",
+      "tags": [],
+      "summary": ""
+    },
+    {
+      "id": "function:scripts/cv_markdown_to_json.py:default",
+      "type": "function",
+      "filePath": "scripts/cv_markdown_to_json.py",
+      "name": "default",
+      "language": "python",
+      "tags": [],
+      "summary": ""
+    },
+    {
+      "id": "function:scripts/cv_markdown_to_json.py:extract_author_info",
+      "type": "function",
+      "filePath": "scripts/cv_markdown_to_json.py",
+      "name": "extract_author_info",
+      "language": "python",
+      "tags": [],
+      "summary": ""
+    },
+    {
+      "id": "function:scripts/cv_markdown_to_json.py:main",
+      "type": "function",
+      "filePath": "scripts/cv_markdown_to_json.py",
+      "name": "main",
+      "language": "python",
+      "tags": [],
+      "summary": ""
+    },
+    {
+      "id": "function:scripts/cv_markdown_to_json.py:parse_config",
+      "type": "function",
+      "filePath": "scripts/cv_markdown_to_json.py",
+      "name": "parse_config",
+      "language": "python",
+      "tags": [],
+      "summary": ""
+    },
+    {
+      "id": "function:scripts/cv_markdown_to_json.py:parse_education",
+      "type": "function",
+      "filePath": "scripts/cv_markdown_to_json.py",
+      "name": "parse_education",
+      "language": "python",
+      "tags": [],
+      "summary": ""
+    },
+    {
+      "id": "function:scripts/cv_markdown_to_json.py:parse_markdown_cv",
+      "type": "function",
+      "filePath": "scripts/cv_markdown_to_json.py",
+      "name": "parse_markdown_cv",
+      "language": "python",
+      "tags": [],
+      "summary": ""
+    },
+    {
+      "id": "function:scripts/cv_markdown_to_json.py:parse_portfolio",
+      "type": "function",
+      "filePath": "scripts/cv_markdown_to_json.py",
+      "name": "parse_portfolio",
+      "language": "python",
+      "tags": [],
+      "summary": ""
+    },
+    {
+      "id": "function:scripts/cv_markdown_to_json.py:parse_publications",
+      "type": "function",
+      "filePath": "scripts/cv_markdown_to_json.py",
+      "name": "parse_publications",
+      "language": "python",
+      "tags": [],
+      "summary": ""
+    },
+    {
+      "id": "function:scripts/cv_markdown_to_json.py:parse_skills",
+      "type": "function",
+      "filePath": "scripts/cv_markdown_to_json.py",
+      "name": "parse_skills",
+      "language": "python",
+      "tags": [],
+      "summary": ""
+    },
+    {
+      "id": "function:scripts/cv_markdown_to_json.py:parse_talks",
+      "type": "function",
+      "filePath": "scripts/cv_markdown_to_json.py",
+      "name": "parse_talks",
+      "language": "python",
+      "tags": [],
+      "summary": ""
+    },
+    {
+      "id": "function:scripts/cv_markdown_to_json.py:parse_teaching",
+      "type": "function",
+      "filePath": "scripts/cv_markdown_to_json.py",
+      "name": "parse_teaching",
+      "language": "python",
+      "tags": [],
+      "summary": ""
+    },
+    {
+      "id": "function:scripts/cv_markdown_to_json.py:parse_work_experience",
+      "type": "function",
+      "filePath": "scripts/cv_markdown_to_json.py",
+      "name": "parse_work_experience",
+      "language": "python",
+      "tags": [],
+      "summary": ""
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:Dockerfile",
+      "target": "function:Dockerfile:cmd",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:assets/js/_main.js",
+      "target": "file:assets/js/theme.js",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:assets/js/_main.js",
+      "target": "function:assets/js/_main.js:determineComputedTheme",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:assets/js/_main.js",
+      "target": "function:assets/js/_main.js:determineThemeSetting",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:assets/js/_main.js",
+      "target": "function:assets/js/_main.js:setTheme",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:assets/js/plugins/jquery.greedy-navigation.js",
+      "target": "function:assets/js/plugins/jquery.greedy-navigation.js:updateNav",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:markdown_generator/publications.py",
+      "target": "function:markdown_generator/publications.py:create_md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:markdown_generator/publications.py",
+      "target": "function:markdown_generator/publications.py:html_escape",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:markdown_generator/publications.py",
+      "target": "function:markdown_generator/publications.py:read",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:markdown_generator/pubsFromBib.py",
+      "target": "function:markdown_generator/pubsFromBib.py:html_escape",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:markdown_generator/talks.py",
+      "target": "function:markdown_generator/talks.py:html_escape",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:scripts/cv_markdown_to_json.py",
+      "target": "class:scripts/cv_markdown_to_json.py:DateTimeEncoder",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:scripts/cv_markdown_to_json.py",
+      "target": "function:scripts/cv_markdown_to_json.py:create_cv_json",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:scripts/cv_markdown_to_json.py",
+      "target": "function:scripts/cv_markdown_to_json.py:default",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:scripts/cv_markdown_to_json.py",
+      "target": "function:scripts/cv_markdown_to_json.py:extract_author_info",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:scripts/cv_markdown_to_json.py",
+      "target": "function:scripts/cv_markdown_to_json.py:main",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:scripts/cv_markdown_to_json.py",
+      "target": "function:scripts/cv_markdown_to_json.py:parse_config",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:scripts/cv_markdown_to_json.py",
+      "target": "function:scripts/cv_markdown_to_json.py:parse_education",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:scripts/cv_markdown_to_json.py",
+      "target": "function:scripts/cv_markdown_to_json.py:parse_markdown_cv",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:scripts/cv_markdown_to_json.py",
+      "target": "function:scripts/cv_markdown_to_json.py:parse_portfolio",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:scripts/cv_markdown_to_json.py",
+      "target": "function:scripts/cv_markdown_to_json.py:parse_publications",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:scripts/cv_markdown_to_json.py",
+      "target": "function:scripts/cv_markdown_to_json.py:parse_skills",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:scripts/cv_markdown_to_json.py",
+      "target": "function:scripts/cv_markdown_to_json.py:parse_talks",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:scripts/cv_markdown_to_json.py",
+      "target": "function:scripts/cv_markdown_to_json.py:parse_teaching",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:scripts/cv_markdown_to_json.py",
+      "target": "function:scripts/cv_markdown_to_json.py:parse_work_experience",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:scripts/cv_markdown_to_json.py::DateTimeEncoder",
+      "target": "function:scripts/cv_markdown_to_json.py:default",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    }
+  ],
+  "layers": [
+    {
+      "id": "layer:application",
+      "name": "Application",
+      "description": "",
+      "nodeIds": [
+        "file:AGENTS.md",
+        "file:CLAUDE.md",
+        "file:CONTRIBUTING.md",
+        "file:Dockerfile",
+        "file:README.md",
+        "file:_config.yml",
+        "file:_config_docker.yml",
+        "file:_data/authors.yml",
+        "file:_data/comments/layout-comments/comment-1470944006665.yml",
+        "file:_data/comments/layout-comments/comment-1470944162041.yml",
+        "file:_data/comments/markup-syntax-highlighting/comment-1470969665387.yml",
+        "file:_data/comments/welcome-to-jekyll/comment-1470942205700.yml",
+        "file:_data/comments/welcome-to-jekyll/comment-1470942247755.yml",
+        "file:_data/comments/welcome-to-jekyll/comment-1470942265819.yml",
+        "file:_data/comments/welcome-to-jekyll/comment-1470942493518.yml",
+        "file:_data/cv.json",
+        "file:_data/navigation.yml",
+        "file:_data/ui-text.yml",
+        "file:_drafts/post-draft.md",
+        "file:_pages/404.md",
+        "file:_pages/about.md",
+        "file:_pages/archive-layout-with-content.md",
+        "file:_pages/cv-json.md",
+        "file:_pages/cv.md",
+        "file:_pages/markdown.md",
+        "file:_pages/non-menu-page.md",
+        "file:_pages/sitemap.md",
+        "file:_pages/terms.md",
+        "file:_portfolio/portfolio-1.md",
+        "file:_posts/2012-08-14-blog-post-1.md",
+        "file:_posts/2013-08-14-blog-post-2.md",
+        "file:_posts/2014-08-14-blog-post-3.md",
+        "file:_posts/2015-08-14-blog-post-4.md",
+        "file:_posts/2199-01-01-future-post.md",
+        "file:_publications/2009-10-01-paper-title-number-1.md",
+        "file:_publications/2010-10-01-paper-title-number-2.md",
+        "file:_publications/2015-10-01-paper-title-number-3.md",
+        "file:_publications/2024-02-17-paper-title-number-4.md",
+        "file:_publications/2025-06-08-paper-title-number-5.md",
+        "file:_talks/2012-03-01-talk-1.md",
+        "file:_talks/2013-03-01-tutorial-1.md",
+        "file:_talks/2014-02-01-talk-2.md",
+        "file:_talks/2014-03-01-talk-3.md",
+        "file:_teaching/2014-spring-teaching-1.md",
+        "file:_teaching/2015-spring-teaching-2.md",
+        "file:assets/js/_main.js",
+        "file:assets/js/collapse.js",
+        "file:assets/js/theme.js",
+        "file:docker-compose.yaml",
+        "file:images/manifest.json",
+        "file:markdown_generator/README.md",
+        "file:markdown_generator/publications.py",
+        "file:markdown_generator/pubsFromBib.py",
+        "file:markdown_generator/talks.py",
+        "file:package.json",
+        "file:talkmap.py",
+        "file:talkmap/leaflet_dist/leaflet.markercluster-src.js",
+        "file:talkmap/leaflet_dist/leaflet.markercluster.js",
+        "file:talkmap/org-locations.js"
+      ],
+      "display_order": 0,
+      "order_basis": "canonical",
+      "subGroups": [
+        {
+          "id": "layer:application:root",
+          "name": "(root)",
+          "nodeIds": [
+            "file:AGENTS.md",
+            "file:CLAUDE.md",
+            "file:CONTRIBUTING.md",
+            "file:Dockerfile",
+            "file:README.md",
+            "file:_config.yml",
+            "file:_config_docker.yml",
+            "file:docker-compose.yaml",
+            "file:package.json",
+            "file:talkmap.py"
+          ]
+        },
+        {
+          "id": "layer:application:data",
+          "name": "_data",
+          "nodeIds": [
+            "file:_data/authors.yml",
+            "file:_data/comments/layout-comments/comment-1470944006665.yml",
+            "file:_data/comments/layout-comments/comment-1470944162041.yml",
+            "file:_data/comments/markup-syntax-highlighting/comment-1470969665387.yml",
+            "file:_data/comments/welcome-to-jekyll/comment-1470942205700.yml",
+            "file:_data/comments/welcome-to-jekyll/comment-1470942247755.yml",
+            "file:_data/comments/welcome-to-jekyll/comment-1470942265819.yml",
+            "file:_data/comments/welcome-to-jekyll/comment-1470942493518.yml",
+            "file:_data/cv.json",
+            "file:_data/navigation.yml",
+            "file:_data/ui-text.yml"
+          ]
+        },
+        {
+          "id": "layer:application:drafts",
+          "name": "_drafts",
+          "nodeIds": [
+            "file:_drafts/post-draft.md"
+          ]
+        },
+        {
+          "id": "layer:application:pages",
+          "name": "_pages",
+          "nodeIds": [
+            "file:_pages/404.md",
+            "file:_pages/about.md",
+            "file:_pages/archive-layout-with-content.md",
+            "file:_pages/cv-json.md",
+            "file:_pages/cv.md",
+            "file:_pages/markdown.md",
+            "file:_pages/non-menu-page.md",
+            "file:_pages/sitemap.md",
+            "file:_pages/terms.md"
+          ]
+        },
+        {
+          "id": "layer:application:portfolio",
+          "name": "_portfolio",
+          "nodeIds": [
+            "file:_portfolio/portfolio-1.md"
+          ]
+        },
+        {
+          "id": "layer:application:posts",
+          "name": "_posts",
+          "nodeIds": [
+            "file:_posts/2012-08-14-blog-post-1.md",
+            "file:_posts/2013-08-14-blog-post-2.md",
+            "file:_posts/2014-08-14-blog-post-3.md",
+            "file:_posts/2015-08-14-blog-post-4.md",
+            "file:_posts/2199-01-01-future-post.md"
+          ]
+        },
+        {
+          "id": "layer:application:publications",
+          "name": "_publications",
+          "nodeIds": [
+            "file:_publications/2009-10-01-paper-title-number-1.md",
+            "file:_publications/2010-10-01-paper-title-number-2.md",
+            "file:_publications/2015-10-01-paper-title-number-3.md",
+            "file:_publications/2024-02-17-paper-title-number-4.md",
+            "file:_publications/2025-06-08-paper-title-number-5.md"
+          ]
+        },
+        {
+          "id": "layer:application:talks",
+          "name": "_talks",
+          "nodeIds": [
+            "file:_talks/2012-03-01-talk-1.md",
+            "file:_talks/2013-03-01-tutorial-1.md",
+            "file:_talks/2014-02-01-talk-2.md",
+            "file:_talks/2014-03-01-talk-3.md"
+          ]
+        },
+        {
+          "id": "layer:application:teaching",
+          "name": "_teaching",
+          "nodeIds": [
+            "file:_teaching/2014-spring-teaching-1.md",
+            "file:_teaching/2015-spring-teaching-2.md"
+          ]
+        },
+        {
+          "id": "layer:application:assets",
+          "name": "assets",
+          "nodeIds": [
+            "file:assets/js/_main.js",
+            "file:assets/js/collapse.js",
+            "file:assets/js/theme.js"
+          ]
+        },
+        {
+          "id": "layer:application:images",
+          "name": "images",
+          "nodeIds": [
+            "file:images/manifest.json"
+          ]
+        },
+        {
+          "id": "layer:application:markdown-generator",
+          "name": "markdown_generator",
+          "nodeIds": [
+            "file:markdown_generator/README.md",
+            "file:markdown_generator/publications.py",
+            "file:markdown_generator/pubsFromBib.py",
+            "file:markdown_generator/talks.py"
+          ]
+        },
+        {
+          "id": "layer:application:talkmap",
+          "name": "talkmap",
+          "nodeIds": [
+            "file:talkmap/leaflet_dist/leaflet.markercluster-src.js",
+            "file:talkmap/leaflet_dist/leaflet.markercluster.js",
+            "file:talkmap/org-locations.js"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "layer:config",
+      "name": "Config",
+      "description": "",
+      "nodeIds": [
+        "file:.claude/skills/gitnexus/debugging/SKILL.md",
+        "file:.claude/skills/gitnexus/exploring/SKILL.md",
+        "file:.claude/skills/gitnexus/impact-analysis/SKILL.md",
+        "file:.claude/skills/gitnexus/refactoring/SKILL.md",
+        "file:.devcontainer/devcontainer.json",
+        "file:.github/ISSUE_TEMPLATE/bug_report.md",
+        "file:.github/ISSUE_TEMPLATE/feature_request.md",
+        "file:.github/workflows/scrape_talks.yml",
+        "file:.spec-workflow/templates/design-template.md",
+        "file:.spec-workflow/templates/product-template.md",
+        "file:.spec-workflow/templates/requirements-template.md",
+        "file:.spec-workflow/templates/structure-template.md",
+        "file:.spec-workflow/templates/tasks-template.md",
+        "file:.spec-workflow/templates/tech-template.md",
+        "file:.spec-workflow/user-templates/README.md"
+      ],
+      "display_order": 1,
+      "order_basis": "canonical"
+    },
+    {
+      "id": "layer:docs-tooling",
+      "name": "Docs & Tooling",
+      "description": "",
+      "nodeIds": [
+        "file:assets/js/plugins/jquery.greedy-navigation.js",
+        "file:scripts/cv_markdown_to_json.py",
+        "file:scripts/update_cv_json.sh"
+      ],
+      "display_order": 2,
+      "order_basis": "canonical"
+    }
+  ],
+  "tour": [
+    {
+      "order": 1,
+      "target_path": "README.md",
+      "page_type": "repo_overview",
+      "title": "README.md",
+      "depth": 0,
+      "kind": "overview",
+      "reason": "Start here for the end-to-end picture before diving into the code.",
+      "layer_id": "layer:application"
+    },
+    {
+      "order": 2,
+      "target_path": "assets/js/_main.js",
+      "page_type": "file_page",
+      "title": "_main.js",
+      "depth": 0,
+      "kind": "code",
+      "reason": "The walk's anchor \u2014 its imports fan out the widest in a repo with no single entry point.",
+      "layer_id": "layer:application"
+    },
+    {
+      "order": 3,
+      "target_path": "assets/js/theme.js",
+      "page_type": "file_page",
+      "title": "theme.js",
+      "depth": 1,
+      "kind": "code",
+      "reason": "Directly imported by the anchor above; a core collaborator.",
+      "layer_id": "layer:application"
+    },
+    {
+      "order": 4,
+      "target_path": "markdown_generator/publications.py",
+      "page_type": "file_page",
+      "title": "publications.py",
+      "depth": 2,
+      "kind": "code",
+      "reason": "Off the import paths walked above \u2014 a standalone or supporting file.",
+      "layer_id": "layer:application"
+    },
+    {
+      "order": 5,
+      "target_path": "markdown_generator/pubsFromBib.py",
+      "page_type": "file_page",
+      "title": "pubsFromBib.py",
+      "depth": 2,
+      "kind": "code",
+      "reason": "Off the import paths walked above \u2014 a standalone or supporting file.",
+      "layer_id": "layer:application"
+    },
+    {
+      "order": 6,
+      "target_path": "markdown_generator/talks.py",
+      "page_type": "file_page",
+      "title": "talks.py",
+      "depth": 2,
+      "kind": "code",
+      "reason": "Off the import paths walked above \u2014 a standalone or supporting file.",
+      "layer_id": "layer:application"
+    },
+    {
+      "order": 7,
+      "target_path": "scripts/cv_markdown_to_json.py",
+      "page_type": "file_page",
+      "title": "cv_markdown_to_json.py",
+      "depth": 2,
+      "kind": "code",
+      "reason": "Off the import paths walked above \u2014 a standalone or supporting file.",
+      "layer_id": "layer:docs-tooling"
+    },
+    {
+      "order": 8,
+      "target_path": "talkmap.py",
+      "page_type": "file_page",
+      "title": "talkmap.py",
+      "depth": 2,
+      "kind": "code",
+      "reason": "Off the import paths walked above \u2014 a standalone or supporting file.",
+      "layer_id": "layer:application"
+    },
+    {
+      "order": 9,
+      "target_path": "talkmap/org-locations.js",
+      "page_type": "file_page",
+      "title": "org-locations.js",
+      "depth": 2,
+      "kind": "code",
+      "reason": "Off the import paths walked above \u2014 a standalone or supporting file.",
+      "layer_id": "layer:application"
+    },
+    {
+      "order": 10,
+      "target_path": "assets/js/collapse.js",
+      "page_type": "file_page",
+      "title": "collapse.js",
+      "depth": 2,
+      "kind": "code",
+      "reason": "Off the import paths walked above \u2014 a standalone or supporting file.",
+      "layer_id": "layer:application"
+    },
+    {
+      "order": 11,
+      "target_path": "assets/js/plugins/jquery.greedy-navigation.js",
+      "page_type": "file_page",
+      "title": "jquery.greedy-navigation.js",
+      "depth": 2,
+      "kind": "code",
+      "reason": "Off the import paths walked above \u2014 a standalone or supporting file.",
+      "layer_id": "layer:docs-tooling"
+    },
+    {
+      "order": 12,
+      "target_path": "talkmap/leaflet_dist/leaflet.markercluster-src.js",
+      "page_type": "file_page",
+      "title": "leaflet.markercluster-src.js",
+      "depth": 2,
+      "kind": "code",
+      "reason": "Off the import paths walked above \u2014 a standalone or supporting file.",
+      "layer_id": "layer:application"
+    }
+  ],
+  "modules": [
+    {
+      "id": "module:application",
+      "name": "Application",
+      "path": "",
+      "layerId": "layer:application",
+      "nodeIds": [
+        "file:AGENTS.md",
+        "file:CLAUDE.md",
+        "file:CONTRIBUTING.md",
+        "file:Dockerfile",
+        "file:README.md",
+        "file:_config.yml",
+        "file:_config_docker.yml",
+        "file:_data/authors.yml",
+        "file:_data/comments/layout-comments/comment-1470944006665.yml",
+        "file:_data/comments/layout-comments/comment-1470944162041.yml",
+        "file:_data/comments/markup-syntax-highlighting/comment-1470969665387.yml",
+        "file:_data/comments/welcome-to-jekyll/comment-1470942205700.yml",
+        "file:_data/comments/welcome-to-jekyll/comment-1470942247755.yml",
+        "file:_data/comments/welcome-to-jekyll/comment-1470942265819.yml",
+        "file:_data/comments/welcome-to-jekyll/comment-1470942493518.yml",
+        "file:_data/cv.json",
+        "file:_data/navigation.yml",
+        "file:_data/ui-text.yml",
+        "file:_drafts/post-draft.md",
+        "file:_pages/404.md",
+        "file:_pages/about.md",
+        "file:_pages/archive-layout-with-content.md",
+        "file:_pages/cv-json.md",
+        "file:_pages/cv.md",
+        "file:_pages/markdown.md",
+        "file:_pages/non-menu-page.md",
+        "file:_pages/sitemap.md",
+        "file:_pages/terms.md",
+        "file:_portfolio/portfolio-1.md",
+        "file:_posts/2012-08-14-blog-post-1.md",
+        "file:_posts/2013-08-14-blog-post-2.md",
+        "file:_posts/2014-08-14-blog-post-3.md",
+        "file:_posts/2015-08-14-blog-post-4.md",
+        "file:_posts/2199-01-01-future-post.md",
+        "file:_publications/2009-10-01-paper-title-number-1.md",
+        "file:_publications/2010-10-01-paper-title-number-2.md",
+        "file:_publications/2015-10-01-paper-title-number-3.md",
+        "file:_publications/2024-02-17-paper-title-number-4.md",
+        "file:_publications/2025-06-08-paper-title-number-5.md",
+        "file:_talks/2012-03-01-talk-1.md",
+        "file:_talks/2013-03-01-tutorial-1.md",
+        "file:_talks/2014-02-01-talk-2.md",
+        "file:_talks/2014-03-01-talk-3.md",
+        "file:_teaching/2014-spring-teaching-1.md",
+        "file:_teaching/2015-spring-teaching-2.md",
+        "file:assets/js/_main.js",
+        "file:assets/js/collapse.js",
+        "file:assets/js/theme.js",
+        "file:docker-compose.yaml",
+        "file:images/manifest.json",
+        "file:markdown_generator/README.md",
+        "file:markdown_generator/publications.py",
+        "file:markdown_generator/pubsFromBib.py",
+        "file:markdown_generator/talks.py",
+        "file:package.json",
+        "file:talkmap.py",
+        "file:talkmap/leaflet_dist/leaflet.markercluster-src.js",
+        "file:talkmap/leaflet_dist/leaflet.markercluster.js",
+        "file:talkmap/org-locations.js"
+      ],
+      "wholeLayer": true,
+      "language": "markdown"
+    },
+    {
+      "id": "module:config",
+      "name": "Config",
+      "path": "",
+      "layerId": "layer:config",
+      "nodeIds": [
+        "file:.claude/skills/gitnexus/debugging/SKILL.md",
+        "file:.claude/skills/gitnexus/exploring/SKILL.md",
+        "file:.claude/skills/gitnexus/impact-analysis/SKILL.md",
+        "file:.claude/skills/gitnexus/refactoring/SKILL.md",
+        "file:.devcontainer/devcontainer.json",
+        "file:.github/ISSUE_TEMPLATE/bug_report.md",
+        "file:.github/ISSUE_TEMPLATE/feature_request.md",
+        "file:.github/workflows/scrape_talks.yml",
+        "file:.spec-workflow/templates/design-template.md",
+        "file:.spec-workflow/templates/product-template.md",
+        "file:.spec-workflow/templates/requirements-template.md",
+        "file:.spec-workflow/templates/structure-template.md",
+        "file:.spec-workflow/templates/tasks-template.md",
+        "file:.spec-workflow/templates/tech-template.md",
+        "file:.spec-workflow/user-templates/README.md"
+      ],
+      "wholeLayer": true,
+      "language": "markdown"
+    },
+    {
+      "id": "module:docs-tooling",
+      "name": "Docs & Tooling",
+      "path": "",
+      "layerId": "layer:docs-tooling",
+      "nodeIds": [
+        "file:assets/js/plugins/jquery.greedy-navigation.js",
+        "file:scripts/cv_markdown_to_json.py",
+        "file:scripts/update_cv_json.sh"
+      ],
+      "wholeLayer": true,
+      "language": "javascript"
+    }
+  ]
+}

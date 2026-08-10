@@ -1,0 +1,43 @@
+{
+  "last_sync_commit": "d0f0dfd582b9eb6a9ecee4b74be7bacafcfc3a0c",
+  "total_pages": 21,
+  "provider": "ollama",
+  "model": "qwen3.6:35b",
+  "docs_enabled": true,
+  "run_mode": "standard",
+  "git_tier": "full",
+  "include_submodules": false,
+  "total_tokens": 133277,
+  "phase_timings": {
+    "traverse": 0.98,
+    "co_change": 0.59,
+    "git": 1.33,
+    "parse": 2.37,
+    "tsconfig": 0.11,
+    "graph.ts_index": 0.06,
+    "graph.imports": 0.0,
+    "graph.type_refs": 0.0,
+    "graph.heritage": 0.0,
+    "graph.calls": 0.0,
+    "dynamic_hints": 3.58,
+    "graph.metrics": 0.2,
+    "graph.communities": 0.01,
+    "external_systems": 0.01,
+    "dead_code": 0.14,
+    "health": 0.79,
+    "decisions": 54.62,
+    "knowledge_graph.skeleton": 0.0,
+    "graph.flows": 0.0
+  },
+  "knowledge_graph": {
+    "version": "1.0.0",
+    "node_count": 101,
+    "layer_count": 3,
+    "tour_steps": 12,
+    "has_summaries": true,
+    "fingerprint": "15ac5c45bf1792ab"
+  },
+  "store_format_version": 1,
+  "written_by_version": "0.31.0",
+  "config_fingerprint": "82e777c65bf4b605ea1e31a43d0bb376af03ad575487972b065abf38784521e7"
+}
