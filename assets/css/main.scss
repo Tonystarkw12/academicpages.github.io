@@ -41,3 +41,33 @@
     "vendor/font-awesome/solid",
     "vendor/font-awesome/brands"
 ;
+/* ---- custom polish (zihang) ---- */
+html { scroll-behavior: smooth; }
+::selection { background: rgba(88, 166, 255, 0.25); }
+
+.author__avatar img {
+  border-radius: 50%;
+  box-shadow: 0 0 0 3px rgba(127, 127, 127, 0.18), 0 4px 16px rgba(0, 0, 0, 0.15);
+  transition: transform 0.25s ease;
+}
+.author__avatar img:hover { transform: scale(1.05); }
+
+main {
+  #about, .page__content h2 {
+    margin-top: 2.2em;
+    padding-bottom: 0.3em;
+    border-bottom: 2px solid rgba(127, 127, 127, 0.22);
+  }
+}
+
+a { transition: color 0.18s ease; }
+
+.masthead {
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06);
+}
+
+.archive__item-teaser img, .page__hero--overlay img { border-radius: 8px; }
+
+.greedy-nav .visible-links a:hover {
+  opacity: 0.75;
+}
