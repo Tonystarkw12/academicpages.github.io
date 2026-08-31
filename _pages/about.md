@@ -44,7 +44,6 @@ redirect_from:
 
 - [星灵小说站](https://xingling.201014.xyz)：展示长篇小说《星灵一》与相关创作的个人站点
 - [AI 情侣匹配](https://ailove.201014.xyz)：个人开发的 AI 匹配应用
-- [技术博客](http://ugreen.201014.xyz:8090)：记录技术实践与思考
 - [长篇小说《星灵一》](https://fanqienovel.com/page/7513553317675420734?enter_from=search)：围绕“人为什么活着”展开的科幻小说；累计写作约 57 万字
 
 技能
