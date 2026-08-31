@@ -22,7 +22,7 @@ repository               : "Tonystarkw12/academicpages.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "证件照.jpg"
+  avatar           : "博士.jpg"
   name             : "周子航"
   pronouns         : # example: "she/her"
   bio              : "清华大学博士生 | NMR AI | 模型微调 | 科研工具开发"
@@ -51,6 +51,9 @@ author:
   codepen          : # Username
   dribbble         : # Username
   github           : "Tonystarkw12"
+  modelscope       : "tonykw12"
+  huggingface      : "tonykw12"
+  cnb              : "tonykw12"
   kaggle           : # Username
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 

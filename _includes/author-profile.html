@@ -10,7 +10,7 @@
     {% if author.avatar contains "://" %}
     	<img src="{{ author.avatar }}" alt="{{ author.name }}"  fetchpriority="high" />
     {% else %}
-    	<img src="{{ author.avatar | prepend: "/images/" | prepend: base_path }}" class="author__avatar" alt="{{ author.name }}"  fetchpriority="high" />
+    	<img src="{{ author.avatar | prepend: "/images/" | relative_url }}" class="author__avatar" alt="{{ author.name }}"  fetchpriority="high" />
     {% endif %}
   </div>
 
@@ -170,6 +170,18 @@
       {% endif %}
       {% if author.zhihu %}
       <li><a href="https://www.zhihu.com/people/{{ author.zhihu }}"><i class="fab fa-fw fa-zhihu icon-pad-right" aria-hidden="true"></i>Zhihu</a></li>
+      {% endif %}
+      {% if author.bilibili %}
+      <li><a href="https://space.bilibili.com/{{ author.bilibili }}"><i class="fas fa-fw fa-tv icon-pad-right" aria-hidden="true"></i>Bilibili</a></li>
+      {% endif %}
+      {% if author.modelscope %}
+      <li><a href="https://modelscope.cn/profile/{{ author.modelscope }}"><i class="fas fa-fw fa-cube icon-pad-right" aria-hidden="true"></i>ModelScope</a></li>
+      {% endif %}
+      {% if author.huggingface %}
+      <li><a href="https://huggingface.co/{{ author.huggingface }}"><span class="icon-pad-right">🤗</span>Hugging Face</a></li>
+      {% endif %}
+      {% if author.cnb %}
+      <li><a href="https://cnb.cool/{{ author.cnb }}"><i class="fas fa-fw fa-code-branch icon-pad-right" aria-hidden="true"></i>CNB</a></li>
       {% endif %}      
     </ul>
   </div>

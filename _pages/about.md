@@ -42,6 +42,7 @@ redirect_from:
 
 ### 其他作品
 
+- [星灵小说站](https://xingling.201014.xyz)：展示长篇小说《星灵一》与相关创作的个人站点
 - [AI 情侣匹配](https://ailove.201014.xyz)：个人开发的 AI 匹配应用
 - [技术博客](http://ugreen.201014.xyz:8090)：记录技术实践与思考
 - [长篇小说《星灵一》](https://fanqienovel.com/page/7513553317675420734?enter_from=search)：围绕“人为什么活着”展开的科幻小说；累计写作约 57 万字
@@ -61,8 +62,10 @@ redirect_from:
 联系我
 ------
 
+全网统一网名：**星灵技术**
+
 - 📧 [zhou-zh23@mails.tsinghua.edu.cn](mailto:zhou-zh23@mails.tsinghua.edu.cn)
-- 💻 [GitHub](https://github.com/Tonystarkw12)
-- 📺 [Bilibili](https://space.bilibili.com/492814737)
+- 💻 [GitHub](https://github.com/Tonystarkw12) · [ModelScope](https://modelscope.cn/profile/tonykw12) · [Hugging Face](https://huggingface.co/tonykw12) · [CNB](https://cnb.cool/tonykw12)
 - 🎓 [Google Scholar](https://scholar.google.com/citations?user=PS_CX0AAAAAJ)
+- 📺 [Bilibili](https://space.bilibili.com/492814737)
 - 📘 知乎 / 微信公众号 / 小红书 / 知识星球：**星灵技术**
