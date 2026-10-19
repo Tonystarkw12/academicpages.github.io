@@ -12,7 +12,7 @@ redirect_from:
 关于我
 ======
 
-我目前在**清华大学（生命科学学院）攻读博士学位**，师从**薛毅**教授，本科毕业于**南方科技大学**生命科学专业。研究方向聚焦 **NMR 与人工智能**。现阶段主要工作是微调 NMR pulse program 生成模型，并建立可靠的 benchmark，评估 AI 生成脉冲程序的质量。
+我目前在**清华大学生命科学学院[薛毅教授实验室（Rainbow Lab）](http://rainbow.life.tsinghua.edu.cn)**攻读博士学位，本科毕业于**南方科技大学**生命科学专业。研究方向聚焦 **NMR 与人工智能**。现阶段主要工作是微调 NMR pulse program 生成模型，并建立可靠的 benchmark，评估 AI 生成脉冲程序的质量。
 
 我也持续开发 AI 辅助科研工具，常用技术包括 **Python、Bash、Docker 与 Linux**。做工程时，我更看重代码质量、可复现性和稳健交付。
 
@@ -67,6 +67,8 @@ TopSpin 风格的现代交互式 NMR 脉冲程序可视化查看器，基于 AST
 - [GraphPulse](https://github.com/Tonystarkw12/graphpulse)（[在线服务](https://graphpulse.201014.xyz)）：TopSpin 风格的 NMR 脉冲序列时序图交互式可视化工具
 - [NMRagent](https://github.com/Tonystarkw12/NMRagent)（[在线服务](https://nmragent.201014.xyz)）：面向 NMR 研究者的 AI Agent 智能助手
 - [evalpulse](https://github.com/Tonystarkw12/evalpulseprogram)：兼容 DeepEval 的 NMR 脉冲程序多级评测基准与语义打分套件
+- [pp2ast](https://github.com/Tonystarkw12/pp2ast)：Bruker NMR 脉冲程序语法解析器与抽象语法树（AST）构建工具，支持结构分析与 LSP 语言服务器
+- [nmr-posttrain](https://github.com/Tonystarkw12/nmr-posttrain)：NMR 脉冲程序大模型后训练套件（SFT + RL/GRPO），统一管理课程微调与物理验证
 - [topspincli](https://github.com/Tonystarkw12/topspincli)：Bruker TopSpin 命令行操控与批处理/NMRSIM 自动化工具链
 - [topspinRE](https://github.com/Tonystarkw12/topspinRE)：Bruker 脉冲程序逆向工程与 AST 结构化解析工具
 - [competition](https://github.com/Tonystarkw12/competition)：AI 驱动的可解释 RNA 能量模型与核酸工具设计
@@ -111,7 +113,7 @@ TopSpin 风格的现代交互式 NMR 脉冲程序可视化查看器，基于 AST
 About Me
 ========
 
-I am currently a **Ph.D. student in the School of Life Sciences at Tsinghua University**, advised by Prof. **Yi Xue**. I received my B.S. in Biological Sciences from **Southern University of Science and Technology (SUSTech)**. My research is focused on the intersection of **Nuclear Magnetic Resonance (NMR) and Artificial Intelligence**. Currently, my primary work revolves around fine-tuning domain-specific LLMs for NMR pulse program generation and establishing rigorous benchmarks to quantitatively evaluate AI-generated pulse sequences.
+I am currently a **Ph.D. student in the School of Life Sciences at Tsinghua University**, advised by Prof. **Yi Xue** in the **[Yi Xue Laboratory (Rainbow Lab)](http://rainbow.life.tsinghua.edu.cn)**. I received my B.S. in Biological Sciences from **Southern University of Science and Technology (SUSTech)**. My research is focused on the intersection of **Nuclear Magnetic Resonance (NMR) and Artificial Intelligence**. Currently, my primary work revolves around fine-tuning domain-specific LLMs for NMR pulse program generation and establishing rigorous benchmarks to quantitatively evaluate AI-generated pulse sequences.
 
 I also continuously engineer AI-assisted scientific tools with a technical stack centered around **Python, Bash, Docker, and Linux**, prioritizing code quality, reproducibility, and robust delivery.
 
@@ -167,6 +169,8 @@ I actively maintain the following NMR AI, RNA, and scientific software repositor
 - [GraphPulse](https://github.com/Tonystarkw12/graphpulse) ([Live Service](https://graphpulse.201014.xyz)): Interactive TopSpin-style NMR pulse sequence timing visualizer
 - [NMRagent](https://github.com/Tonystarkw12/NMRagent) ([Live Service](https://nmragent.201014.xyz)): Domain-specific AI Agent assistant for NMR spectroscopy
 - [evalpulse](https://github.com/Tonystarkw12/evalpulseprogram): DeepEval-compatible evaluation benchmark & semantic testing suite for NMR pulse sequences
+- [pp2ast](https://github.com/Tonystarkw12/pp2ast): Bruker NMR pulse program parser into structured ASTs with tree-sitter support, visualization & LSP IDE integration
+- [nmr-posttrain](https://github.com/Tonystarkw12/nmr-posttrain): Pulse program LLM post-training suite (SFT + RL/GRPO) for autonomous NMR pulse sequence design
 - [topspincli](https://github.com/Tonystarkw12/topspincli): Command-line harness for Bruker TopSpin automation, batch processing & NMRSIM simulations
 - [topspinRE](https://github.com/Tonystarkw12/topspinRE): Reverse engineering & AST parsing toolkit for Bruker TopSpin pulse programs
 - [competition](https://github.com/Tonystarkw12/competition): Interpretable RNA energy model & nucleic acid tool design

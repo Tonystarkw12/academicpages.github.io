@@ -33,6 +33,9 @@ author:
   location_en      : "Beijing, China"
   employer         : "清华大学"
   employer_en      : "Tsinghua University"
+  lab              : "薛毅实验室 (Rainbow Lab)"
+  lab_en           : "Yi Xue Lab (Rainbow Lab)"
+  lab_uri          : "http://rainbow.life.tsinghua.edu.cn"
   uri              :
   email            : "zhou-zh23@mails.tsinghua.edu.cn"
 

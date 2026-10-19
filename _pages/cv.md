@@ -14,7 +14,7 @@ redirect_from:
 教育经历
 ======
 * 博士（在读），清华大学，2023 – 至今
-  * 生命科学学院 · 导师：薛毅 教授
+  * 生命科学学院 · [薛毅实验室 (Rainbow Lab)](http://rainbow.life.tsinghua.edu.cn) · 导师：薛毅 教授
   * 研究方向：NMR 与人工智能交叉 —— 科学程序（pulse program）生成 + NMR 实验验证
   * 目标：用大模型生成可实际执行的 Bruker 脉冲程序，并用模拟与实验闭环验证其正确性
 * 本科，生命科学，南方科技大学，2019 – 2023
@@ -30,7 +30,7 @@ redirect_from:
 
 开源与工程
 ======
-* 维护开源项目：[ccse](https://github.com/Tonystarkw12/cc-switch-enhanced)（Claude Code Switch Enhanced）、[GraphPulse](https://github.com/Tonystarkw12/graphpulse)（脉冲序列时序图可视化）、[NMRagent](https://github.com/Tonystarkw12/NMRagent)（NMR 智能 Agent）、[evalpulse](https://github.com/Tonystarkw12/evalpulseprogram)（脉冲程序评测基准）、[topspincli](https://github.com/Tonystarkw12/topspincli)（TopSpin 命令行与模拟工具）、[topspinRE](https://github.com/Tonystarkw12/topspinRE)（脉冲程序逆向与 AST 解析）、[competition](https://github.com/Tonystarkw12/competition)（可解释 RNA 能量模型）、[xingling](https://github.com/Tonystarkw12/xingling)（星灵小说站）、[AIlove](https://github.com/Tonystarkw12/AIlove)（AI 情侣匹配）、[spinachpython](https://github.com/Tonystarkw12/spinachpython)、[pp2label](https://github.com/Tonystarkw12/pp2label)、prodopy-wt
+* 维护开源项目：[ccse](https://github.com/Tonystarkw12/cc-switch-enhanced)（Claude Code Switch Enhanced）、[GraphPulse](https://github.com/Tonystarkw12/graphpulse)（脉冲序列时序图可视化）、[NMRagent](https://github.com/Tonystarkw12/NMRagent)（NMR 智能 Agent）、[evalpulse](https://github.com/Tonystarkw12/evalpulseprogram)（脉冲程序评测基准）、[pp2ast](https://github.com/Tonystarkw12/pp2ast)（脉冲程序 AST 语法解析器）、[nmr-posttrain](https://github.com/Tonystarkw12/nmr-posttrain)（脉冲程序 LLM 后训练套件）、[topspincli](https://github.com/Tonystarkw12/topspincli)（TopSpin 命令行与模拟工具）、[topspinRE](https://github.com/Tonystarkw12/topspinRE)（脉冲程序逆向与 AST 解析）、[competition](https://github.com/Tonystarkw12/competition)（可解释 RNA 能量模型）、[xingling](https://github.com/Tonystarkw12/xingling)（星灵小说站）、[AIlove](https://github.com/Tonystarkw12/AIlove)（AI 情侣匹配）、[spinachpython](https://github.com/Tonystarkw12/spinachpython)、[pp2label](https://github.com/Tonystarkw12/pp2label)、prodopy-wt
 * 独立开发并部署多个科研与创作服务：[NMR Pulse Program AI 生成平台](https://nmr.201014.xyz)、[ccse 在线服务](https://ccswitch.201014.xyz/)、[NMRagent 智能助手](https://nmragent.201014.xyz)、[GraphPulse 脉冲序列可视化器](https://graphpulse.201014.xyz)、[星灵小说站](https://xingling.201014.xyz)、[AI 情侣匹配](https://ailove.201014.xyz) 及配套自托管服务
 
 荣誉与竞赛
@@ -64,7 +64,7 @@ Publications
 Education
 =========
 * Ph.D. in Life Sciences, Tsinghua University, 2023 – Present
-  * School of Life Sciences · Advisor: Prof. Yi Xue
+  * School of Life Sciences · [Yi Xue Lab (Rainbow Lab)](http://rainbow.life.tsinghua.edu.cn) · Advisor: Prof. Yi Xue
   * Focus: Intersection of NMR and AI —— Scientific Pulse Program Generation + Experimental Validation
   * Goal: Generating executable Bruker pulse sequences via domain LLMs with simulation and experimental closed-loop verification
 * B.S. in Biological Sciences, Southern University of Science and Technology (SUSTech), 2019 – 2023
@@ -80,7 +80,7 @@ Research Experience
 
 Open Source & Engineering
 =========================
-* Core repositories: [ccse](https://github.com/Tonystarkw12/cc-switch-enhanced) (Claude Code Switch Enhanced), [GraphPulse](https://github.com/Tonystarkw12/graphpulse) (Pulse Sequence Visualizer), [NMRagent](https://github.com/Tonystarkw12/NMRagent) (AI Agent for NMR), [evalpulse](https://github.com/Tonystarkw12/evalpulseprogram) (Pulse Program Benchmark Suite), [topspincli](https://github.com/Tonystarkw12/topspincli) (TopSpin CLI Automation), [topspinRE](https://github.com/Tonystarkw12/topspinRE) (Pulse Program Reverse Engineering & AST), [competition](https://github.com/Tonystarkw12/competition) (Interpretable RNA Energy Model), [xingling](https://github.com/Tonystarkw12/xingling) (Sci-Fi Portal), [AIlove](https://github.com/Tonystarkw12/AIlove) (AI Love Matching), [spinachpython](https://github.com/Tonystarkw12/spinachpython), [pp2label](https://github.com/Tonystarkw12/pp2label), prodopy-wt
+* Core repositories: [ccse](https://github.com/Tonystarkw12/cc-switch-enhanced) (Claude Code Switch Enhanced), [GraphPulse](https://github.com/Tonystarkw12/graphpulse) (Pulse Sequence Visualizer), [NMRagent](https://github.com/Tonystarkw12/NMRagent) (AI Agent for NMR), [evalpulse](https://github.com/Tonystarkw12/evalpulseprogram) (Pulse Program Benchmark Suite), [pp2ast](https://github.com/Tonystarkw12/pp2ast) (Pulse Program AST Parser), [nmr-posttrain](https://github.com/Tonystarkw12/nmr-posttrain) (Pulse Program LLM Post-Training), [topspincli](https://github.com/Tonystarkw12/topspincli) (TopSpin CLI Automation), [topspinRE](https://github.com/Tonystarkw12/topspinRE) (Pulse Program Reverse Engineering & AST), [competition](https://github.com/Tonystarkw12/competition) (Interpretable RNA Energy Model), [xingling](https://github.com/Tonystarkw12/xingling) (Sci-Fi Portal), [AIlove](https://github.com/Tonystarkw12/AIlove) (AI Love Matching), [spinachpython](https://github.com/Tonystarkw12/spinachpython), [pp2label](https://github.com/Tonystarkw12/pp2label), prodopy-wt
 * Scientific & creative cloud platforms: [NMR Pulse Program AI Platform](https://nmr.201014.xyz), [ccse Service](https://ccswitch.201014.xyz/), [NMRagent Web Assistant](https://nmragent.201014.xyz), [GraphPulse Timing Visualizer](https://graphpulse.201014.xyz), [Xingling Portal](https://xingling.201014.xyz), [AI Match](https://ailove.201014.xyz)
 
 Honors & Competitions

@@ -38,6 +38,9 @@
       {% if author.employer %}
         <li class="author__desktop"><i class="fas fa-fw fa-building-columns icon-pad-right" aria-hidden="true"></i><span class="lang-zh">{{ author.employer }}</span><span class="lang-en">{{ author.employer_en | default: author.employer }}</span></li>
       {% endif %}
+      {% if author.lab %}
+        <li class="author__desktop"><i class="fas fa-fw fa-flask icon-pad-right" aria-hidden="true"></i><a href="{{ author.lab_uri | default: 'http://rainbow.life.tsinghua.edu.cn' }}"><span class="lang-zh">{{ author.lab }}</span><span class="lang-en">{{ author.lab_en | default: author.lab }}</span></a></li>
+      {% endif %}
       {% if author.uri %}
         <li><a href="{{ author.uri }}"><i class="fas fa-fw fa-link icon-pad-right" aria-hidden="true"></i>{{ site.data.ui-text[site.locale].website_label | default: "Website" }}</a></li>
       {% endif %}
