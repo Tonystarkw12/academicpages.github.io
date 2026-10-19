@@ -71,3 +71,166 @@ a { transition: color 0.18s ease; }
 .greedy-nav .visible-links a:hover {
   opacity: 0.75;
 }
+
+/* ---- i18n bilingual switcher ---- */
+html[data-lang="zh"] .lang-en { display: none !important; }
+html[data-lang="en"] .lang-zh { display: none !important; }
+
+.lang-zh, .lang-en {
+  display: inline;
+}
+div.lang-zh, div.lang-en, p.lang-zh, p.lang-en, section.lang-zh, section.lang-en {
+  display: block;
+}
+
+.masthead__actions-group {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+#lang-toggle {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  font-size: 0.8rem;
+  font-weight: 600;
+  padding: 0.15rem 0.55rem;
+  border-radius: 14px;
+  border: 1px solid var(--global-border-color);
+  color: var(--global-text-color);
+  background: rgba(127, 127, 127, 0.08);
+  text-decoration: none;
+  transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+  user-select: none;
+  line-height: 1.5;
+
+  .lang-btn-text {
+    letter-spacing: 0.5px;
+  }
+
+  &:hover {
+    background: var(--global-base-color);
+    color: #fff;
+    border-color: var(--global-base-color);
+    transform: translateY(-1px);
+    box-shadow: 0 2px 8px rgba(0, 146, 202, 0.25);
+  }
+}
+
+/* ---- React Bits animations & effects ---- */
+
+/* 1. Shiny Text Effect */
+.shiny-text {
+  background: linear-gradient(
+    110deg,
+    var(--global-text-color) 0%,
+    var(--global-text-color) 40%,
+    var(--global-base-color) 50%,
+    var(--global-text-color) 60%,
+    var(--global-text-color) 100%
+  );
+  background-size: 240% 100%;
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  display: inline-block;
+  animation: shinyTextSweep 6s ease-in-out infinite;
+}
+
+@keyframes shinyTextSweep {
+  0% { background-position: 120% 0; }
+  60% { background-position: -120% 0; }
+  100% { background-position: -120% 0; }
+}
+
+/* 2. Spotlight Card Glow */
+.archive__item {
+  padding: 1.2rem 1.4rem;
+  margin-bottom: 1.5rem;
+  border-radius: 10px;
+  border: 1px solid rgba(127, 127, 127, 0.18);
+  background: rgba(127, 127, 127, 0.035);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.03);
+  transition: transform 0.25s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.25s ease, border-color 0.25s ease;
+
+  &:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.07);
+    border-color: rgba(0, 146, 202, 0.4);
+  }
+}
+
+html[data-theme="dark"] .archive__item {
+  background: rgba(255, 255, 255, 0.02);
+  border-color: rgba(255, 255, 255, 0.08);
+
+  &:hover {
+    box-shadow: 0 6px 24px rgba(0, 0, 0, 0.35);
+    border-color: rgba(0, 200, 215, 0.4);
+  }
+}
+
+.spotlight-card {
+  position: relative;
+  transition: transform 0.25s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.25s ease;
+  border-radius: 8px;
+
+  &::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-radius: inherit;
+    background: radial-gradient(
+      500px circle at var(--mouse-x, -9999px) var(--mouse-y, -9999px),
+      rgba(0, 146, 202, 0.12),
+      transparent 65%
+    );
+    pointer-events: none;
+    z-index: 1;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+
+  &:hover::before {
+    opacity: 1;
+  }
+}
+
+html[data-theme="dark"] .spotlight-card::before {
+  background: radial-gradient(
+    500px circle at var(--mouse-x, -9999px) var(--mouse-y, -9999px),
+    rgba(0, 200, 215, 0.16),
+    transparent 65%
+  );
+}
+
+/* 3. Subtle floating & pulse badges */
+.badge-glow {
+  display: inline-block;
+  padding: 0.15rem 0.5rem;
+  font-size: 0.75rem;
+  font-weight: 600;
+  border-radius: 999px;
+  background: rgba(0, 146, 202, 0.12);
+  color: var(--global-base-color);
+  border: 1px solid rgba(0, 146, 202, 0.25);
+  margin-left: 0.4rem;
+  vertical-align: middle;
+  animation: badgePulse 3s ease-in-out infinite;
+}
+
+@keyframes badgePulse {
+  0%, 100% { transform: scale(1); opacity: 0.9; }
+  50% { transform: scale(1.04); opacity: 1; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .shiny-text, .badge-glow {
+    animation: none !important;
+  }
+}

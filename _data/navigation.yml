@@ -9,16 +9,26 @@
 
 main:
   - title: "首页"
+    title_zh: "首页"
+    title_en: "Home"
     url: /
 
   - title: "研究成果"
+    title_zh: "研究成果"
+    title_en: "Publications"
     url: /publications/
 
   - title: "项目"
+    title_zh: "项目"
+    title_en: "Projects"
     url: /portfolio/
 
   - title: "博客"
+    title_zh: "博客"
+    title_en: "Blog"
     url: /year-archive/
 
   - title: "简历"
+    title_zh: "简历"
+    title_en: "CV"
     url: /cv/

@@ -1,6 +1,6 @@
 ---
-title: "NMR Pulse Program AI 生成平台"
-excerpt: "端到端的 NMR 脉冲程序生成、评测与验证平台：SFT+DPO 微调模型 + benchmark + NMRSIM 闭环"
+title: '<span class="lang-zh">NMR Pulse Program AI 生成平台</span><span class="lang-en">AI NMR Pulse Sequence Generation Platform</span>'
+excerpt: '<span class="lang-zh">端到端的 NMR 脉冲程序生成、评测与验证平台：SFT+DPO 微调模型 + benchmark + NMRSIM 闭环</span><span class="lang-en">End-to-end platform for generating and benchmarking NMR pulse sequences with fine-tuned LLMs and NMRSIM closed-loop validation.</span>'
 collection: portfolio
 ---
 

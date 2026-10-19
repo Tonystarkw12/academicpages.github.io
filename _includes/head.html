@@ -10,6 +10,14 @@
 
 <script>
   document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+  try {
+    var storedLang = localStorage.getItem('site_lang');
+    var navLang = navigator.language || navigator.userLanguage || '';
+    var initialLang = storedLang || (navLang.toLowerCase().indexOf('zh') === 0 ? 'zh' : 'en');
+    document.documentElement.setAttribute('data-lang', initialLang);
+  } catch (e) {
+    document.documentElement.setAttribute('data-lang', 'zh');
+  }
 </script>
 
 <!-- For all browsers -->

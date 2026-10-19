@@ -10,6 +10,7 @@
 locale                   : "zh-CN"
 site_theme               : "air" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
 title                    : "周子航 | NMR AI 研究与开发"
+title_en                 : "Zihang Zhou | NMR × AI"
 title_separator          : "-"
 name                     : &name "周子航"
 description              : &description "清华大学 NMR AI 博士生，专注于脉冲程序生成、模型微调与 AI 科研工具开发"
@@ -24,10 +25,14 @@ author:
   # Biographic information
   avatar           : "博士.jpg"
   name             : "周子航"
+  name_en          : "Zihang Zhou"
   pronouns         : # example: "she/her"
   bio              : "清华大学博士生 | NMR AI | 模型微调 | 科研工具开发"
+  bio_en           : "Ph.D. Student at Tsinghua | NMR × AI | LLM Fine-Tuning"
   location         : "北京"
+  location_en      : "Beijing, China"
   employer         : "清华大学"
+  employer_en      : "Tsinghua University"
   uri              :
   email            : "zhou-zh23@mails.tsinghua.edu.cn"
 
