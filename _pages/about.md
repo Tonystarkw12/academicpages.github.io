@@ -86,9 +86,9 @@ TopSpin 风格的现代交互式 NMR 脉冲程序可视化查看器，基于 AST
 技能
 ----
 
-- **编程与工程**：Python、Bash、Docker、Linux、Git
-- **AI 与模型**：大语言模型微调、数据集构建、Agent 工具开发、模型评估
-- **科研方向**：NMR pulse program、脉冲序列生成、NMRSIM 验证
+- **AI 与模型后训练 / 强化学习对齐**：精通 SFT、DPO、GRPO、RLHF、RLVR 等大语言模型后训练技术；熟练进行 Agent 工具开发、微调数据集构建与多级评测 benchmark 设计
+- **计算生物学与分子模拟**：熟练掌握分子对接（Molecular Docking）、分子动力学模拟（Molecular Dynamics, MD）；精通 NMR pulse program 脉冲序列设计、解析与 NMRSIM 模拟验证闭环
+- **编程与系统工程**：Python、Bash、Docker、Linux、Git，注重代码质量、可复现性与稳健交付
 
 兴趣
 ----
@@ -188,9 +188,9 @@ I actively maintain the following NMR AI, RNA, and scientific software repositor
 Technical Skills
 ----------------
 
-- **Programming & Infrastructure**: Python, Bash, Docker, Linux, Git
-- **AI & Deep Learning**: LLM Fine-Tuning (SFT / DPO), Dataset Construction, AI Agent Engineering, Benchmark Evaluation
-- **NMR Domain**: Bruker TopSpin, Pulse Program Architecture, NMRSIM Simulation & Validation
+- **AI & LLM Alignment / Post-Training**: Expert in SFT, DPO, GRPO, RLHF, RLVR, and large language model post-training pipelines; AI Agent toolchains, domain dataset engineering, and multi-tier benchmark design
+- **Computational Biology & Molecular Simulation**: Proficient in Molecular Docking and Molecular Dynamics (MD) simulations; expert in Bruker NMR pulse sequence design, parsing, and NMRSIM validation loops
+- **Programming & Infrastructure**: Python, Bash, Docker, Linux, Git, emphasizing high code quality, reproducibility, and robust delivery
 
 Personal Interests
 ------------------

@@ -43,9 +43,9 @@ redirect_from:
 
 技能
 ======
-* **编程与工程**：Python、Bash、Docker、Linux、Git
-* **AI 与模型**：LLM 微调（SFT / DPO）、数据集构建与审计、Agent 工具开发、模型评测与 benchmark 设计
-* **NMR 领域**：Bruker TopSpin、脉冲序列设计与解析、NMRSIM 模拟验证
+* **AI 与模型后训练 / 强化学习对齐**：精通 SFT、DPO、GRPO、RLHF、RLVR 等大模型后训练前沿技术；擅长领域数据集构建与审计、Agent 工具链开发、多级评测 Benchmark 设计
+* **计算生物学与分子模拟**：熟练掌握分子对接（Molecular Docking）、分子动力学模拟（Molecular Dynamics, MD）；精通 Bruker TopSpin、NMR 脉冲序列设计与解析、NMRSIM 仿真验证闭环
+* **编程与工程基建**：精通 Python、Bash、Docker、Linux、Git 等系统工程工具链，具备稳健的开源软件交付与自托管云服务部署能力
 
 Publications
 ======
@@ -94,9 +94,9 @@ Honors & Competitions
 
 Technical Skills
 ================
-* **Programming & Engineering**: Python, Bash, Docker, Linux, Git
-* **AI & Machine Learning**: LLM Fine-Tuning (SFT / DPO), Dataset Curation & Auditing, AI Agent Tools, Benchmark Design
-* **NMR Domain**: Bruker TopSpin, Pulse Program Architecture, NMRSIM Simulation & Validation
+* **AI & LLM Alignment / Post-Training**: Expert in SFT, DPO, GRPO, RLHF, RLVR, and domain LLM post-training pipelines; dataset curation & auditing, AI agent toolchains, multi-tier benchmark design
+* **Computational Biology & Molecular Simulation**: Proficient in Molecular Docking and Molecular Dynamics (MD) simulations; expert in Bruker TopSpin, NMR pulse sequence design/parsing, and NMRSIM simulation loops
+* **Programming & Infrastructure**: Python, Bash, Docker, Linux, Git; robust software delivery, reproducible research workflows, and self-hosted cloud service deployment
 
 Publications
 ============
