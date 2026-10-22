@@ -12,9 +12,11 @@ redirect_from:
 关于我
 ======
 
-我目前在**清华大学生命科学学院[薛毅教授实验室（Rainbow Lab）](http://rainbow.life.tsinghua.edu.cn)**攻读博士学位，本科毕业于**南方科技大学**生命科学专业。研究方向聚焦 **NMR 与人工智能**。现阶段主要工作是微调 NMR pulse program 生成模型，并建立可靠的 benchmark，评估 AI 生成脉冲程序的质量。
+我目前在**清华大学生命科学学院[薛毅教授实验室（Rainbow Lab）](http://rainbow.life.tsinghua.edu.cn)**攻读博士学位，本科毕业于**南方科技大学**生命科学专业（综合 GPA 3.84/4，前五学期排名 4/34）。研究方向聚焦 **NMR 与人工智能**。
 
-我也持续开发 AI 辅助科研工具，常用技术包括 **Python、Bash、Docker 与 Linux**。做工程时，我更看重代码质量、可复现性和稳健交付。
+我兼具扎实的湿实验（大鼠海马电生理、组蛋白伴侣克隆、重组蛋白表达纯化、ITC 等温滴定量热）与计算生物学/AI 训练功底。现阶段主要工作是微调 NMR pulse program 生成模型，并打通 NMRSIM 模拟器建立严谨的多级 benchmark，闭环评估 AI 生成脉冲程序的物理与语法质量。
+
+我也持续开发面向科学计算与多智能体生态的工程工具链，常用技术涵盖 **Python、全栈开发、Docker、Linux** 与 **Skills / MCP / Plugins** 扩展体系，注重代码质量、可复现性和稳健交付。
 
 研究方向
 ------
@@ -32,6 +34,8 @@ redirect_from:
   - 团队成员：康健宁（队长）、周子航、袁雅萱、时钰
   - 核心工作：融合纯 Python Turner 2004 热力学引擎与基序级神经网络修正，解决近简并构象辨识与变温外推难题，应用于 RNA 温度计等温度响应型核酸工具设计。
   - 链接：[代码仓库](https://github.com/Tonystarkw12/competition) · [赛事官网](https://competition.openlifesci-alliance.org)
+- **南方科技大学 年度优秀学生奖学金**：二等奖（2019 – 2020 学年）、三等奖（2020 – 2021 学年）
+- **南方科技大学 入学优秀新生奖学金**（2019 年 11 月）
 
 项目
 ----
@@ -95,7 +99,7 @@ TopSpin 风格的现代交互式 NMR 脉冲程序可视化查看器，基于 AST
 兴趣
 ----
 
-工作之外，我喜欢小说创作、钢琴、游泳。影音上是重度科幻/机甲爱好者：《星球大战》系列、《攻壳机动队》《新世纪福音战士》《爱，死亡和机器人》《黑客帝国》，漫威宇宙几乎全看，动画追番清单也很长（《JOJO 的奇妙冒险》《咒术回战》《间谍过家家》《Re:0》等）。游戏偏爱高操作战斗与电影化叙事，《艾尔登法环》《赛博朋克 2077》都通关得很投入。歌单常驻 Starset 和泽野弘之。
+工作之外，我热爱科幻小说创作（曾创作短篇科幻《The last stand》与约 57 万字硬科幻长篇《星灵一》）、钢琴与游泳。影音上是重度科幻/机甲爱好者：《星球大战》系列、《攻壳机动队》《新世纪福音战士》《爱，死亡和机器人》《黑客帝国》，漫威宇宙几乎全看，动画追番清单也很长（《JOJO 的奇妙冒险》《咒术回战》《间谍过家家》《Re:0》等）。游戏偏爱高操作战斗与电影化叙事，《艾尔登法环》《赛博朋克 2077》都通关得很投入。歌单常驻 Starset 和泽野弘之。
 
 联系我
 ------
@@ -115,9 +119,11 @@ TopSpin 风格的现代交互式 NMR 脉冲程序可视化查看器，基于 AST
 About Me
 ========
 
-I am currently a **Ph.D. student in the School of Life Sciences at Tsinghua University**, advised by Prof. **Yi Xue** in the **[Yi Xue Laboratory (Rainbow Lab)](http://rainbow.life.tsinghua.edu.cn)**. I received my B.S. in Biological Sciences from **Southern University of Science and Technology (SUSTech)**. My research is focused on the intersection of **Nuclear Magnetic Resonance (NMR) and Artificial Intelligence**. Currently, my primary work revolves around fine-tuning domain-specific LLMs for NMR pulse program generation and establishing rigorous benchmarks to quantitatively evaluate AI-generated pulse sequences.
+I am currently a **Ph.D. student in the School of Life Sciences at Tsinghua University**, advised by Prof. **Yi Xue** in the **[Yi Xue Laboratory (Rainbow Lab)](http://rainbow.life.tsinghua.edu.cn)**. I received my B.S. in Biological Sciences from **Southern University of Science and Technology (SUSTech)** (Cumulative GPA: 3.84/4.0, Top 4/34). My research is focused on the intersection of **Nuclear Magnetic Resonance (NMR) and Artificial Intelligence**.
 
-I also continuously engineer AI-assisted scientific tools with a technical stack centered around **Python, Bash, Docker, and Linux**, prioritizing code quality, reproducibility, and robust delivery.
+I bridge solid wet-lab experimental training (electrophysiology, molecular cloning, recombinant protein expression/purification, and ITC) with deep computational biology and AI alignment methods. Currently, my primary work revolves around fine-tuning domain-specific LLMs for NMR pulse program generation and establishing rigorous multi-tier benchmarks (integrated with NMRSIM simulation) to quantitatively evaluate AI-generated pulse sequences.
+
+I also continuously engineer AI-assisted scientific tools and multi-agent developer workflows with a technical stack centered around **Python, Full-Stack, Docker, Linux**, and **Skills / MCP / Plugins** ecosystem development, prioritizing code quality, reproducibility, and robust delivery.
 
 Research Interests
 ------------------
@@ -136,6 +142,8 @@ Honors & Competitions
   - Team Members: Jianning Kang (Lead), Zihang Zhou, Yaxuan Yuan, Yu Shi
   - Core Highlights: Built a pure Python Turner 2004 nearest-neighbor engine coupled with a motif-level neural residual network (`MotifCorrectionNet`), substantially improving near-degenerate decoy discrimination (60.34% → 80.28%) and enabling rational design of temperature-responsive RNA switches and thermometers.
   - Links: [Code Repository](https://github.com/Tonystarkw12/competition) · [Official Site](https://competition.openlifesci-alliance.org)
+- **SUSTech Outstanding Student Scholarship**: 2nd Prize (AY 2019–2020), 3rd Prize (AY 2020–2021)
+- **SUSTech Outstanding Freshman Scholarship** (Nov 2019)
 
 Featured Projects
 -----------------
@@ -199,7 +207,7 @@ Technical Skills
 Personal Interests
 ------------------
 
-Outside research and engineering, I enjoy writing science fiction, playing the piano, and swimming. I am a dedicated sci-fi and mecha enthusiast (*Star Wars*, *Ghost in the Shell*, *Evangelion*, *Love, Death & Robots*, *The Matrix*, Marvel Universe, *Jujutsu Kaisen*, *Spy × Family*, *Re:Zero*). In gaming, I gravitate toward combat mechanics and cinematic storytelling (*Elden Ring*, *Cyberpunk 2077*). My playlists feature Starset and Hiroyuki Sawano.
+Outside research and engineering, I enjoy writing science fiction (including the earlier sci-fi short *The last stand* and the ongoing ~570k-word novel *Xingling I*), playing the piano, and swimming. I am a dedicated sci-fi and mecha enthusiast (*Star Wars*, *Ghost in the Shell*, *Evangelion*, *Love, Death & Robots*, *The Matrix*, Marvel Universe, *Jujutsu Kaisen*, *Spy × Family*, *Re:Zero*). In gaming, I gravitate toward combat mechanics and cinematic storytelling (*Elden Ring*, *Cyberpunk 2077*). My playlists feature Starset and Hiroyuki Sawano.
 
 Contact Me
 ----------

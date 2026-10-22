@@ -17,16 +17,29 @@ redirect_from:
   * 生命科学学院 · [薛毅实验室 (Rainbow Lab)](http://rainbow.life.tsinghua.edu.cn) · 导师：薛毅 教授
   * 研究方向：NMR 与人工智能交叉 —— 科学程序（pulse program）生成 + NMR 实验验证
   * 目标：用大模型生成可实际执行的 Bruker 脉冲程序，并用模拟与实验闭环验证其正确性
-* 本科，生命科学，南方科技大学，2019 – 2023
+* 学士，南方科技大学，2019 – 2023
+  * 生命科学学院 · 生物科学专业 · 综合 GPA：3.84 / 4.0（前五学期排名：4/34）
+  * 英语能力：CET-4 634 分、CET-6 589 分、TOEFL 99 分（听力 30 满分，阅读 26）
+  * 核心基础课程：高等数学A、线性代数A、大学物理B、化学A、计算机程序设计A（Python）、计算生物学、生物统计学、生物化学、分子生物学、细胞生物学、遗传学等
 
 科研经历
 ======
-* 2023 – 至今：博士研究生，清华大学
+* 2023 – 至今：博士研究生，清华大学（导师：薛毅 教授）
   * 微调 NMR pulse program 生成模型（Qwen3.5-27B，SFT + DPO，自建 1,800+ 偏好对训练数据）
   * 构建 NMR pulse program 评测基准：observable 粗匹配 + strict score + coverage/confidence 多级架构，50 文件 / 2,192 条有效语句回归验证，并行化结果逐字节一致
   * 打通 NMRSIM 验证闭环：AI 生成程序与官方程序在规范化 pulse pattern 层面做等价性评测
   * 构建 NMR 知识库与 RAG 检索：70+ 份 Bruker/NMR 手册结构化入库，支撑生成与检索
   * 修正与标注 Bruker 脉冲序列解析（phase cycle、多通道脉冲、梯度、shape envelope 等）
+* 2021.10 – 2022.05：细胞间黏附信号通路与 IP7-RhoGAP 互作机制研究，南方科技大学（指导老师：饶枫 教授）
+  * 作为发起人组织 5 人竞赛科研团队，聚焦 RhoA/ROCK 与 IP6K2/IP7 调控细胞间黏附的分子通路
+  * 针对 RhoGAP 家族蛋白进行多序列比对与保守结构域分析，设计多组特异性引物并完成重组质粒构建（PCR、酶切酶连与测序验证）
+  * 表达纯化 GST 融合蛋白，通过等温滴定量热法（ITC）定量检测焦磷酸肌醇（IP7）小分子与蛋白结构域的结合互作
+* 2021.07 – 2021.08：组蛋白伴侣基因克隆与蛋白分离纯化（暑期科研），南方科技大学（指导老师：黄鸿达 教授）
+  * 开展组蛋白伴侣（Histone Chaperones）克隆实验，探索其在核小体正确组装中的存储与转运机制
+  * 完成目的片段筛选、载体组装、感受态细胞转化与蓝白斑正向筛选；摇菌进行 IPTG 诱导表达，利用超声破碎、Ni-NTA 亲和层析与凝胶过滤层析（分子筛）纯化目标重组蛋白
+* 2020.09 – 2021.01：大鼠海马下区齿状回关联记忆编码的电生理研究，南方科技大学（指导老师：侯圣陶 教授）
+  * 参与电生理实验，探究大鼠自由探索新物体时海马局部场电位（LFP）慢伽马（slow gamma）神经振荡活动
+  * 协助完成大鼠脑内立体定位电极埋植手术与多通道神经电信号采集；设计反向验证实验，在麻醉状态下施加周期性电刺激并记录行为及电生理响应
 
 开源与工程
 ======
@@ -40,6 +53,9 @@ redirect_from:
   * 团队成员：康健宁（队长）、周子航、袁雅萱、时钰
   * 核心成果：针对经典 Turner 2004 模型在 RNA 自由能与温度依赖性刻画不足的瓶颈，构建融合物理热力学与深度学习修正的可解释 RNA 能量模型（MotifCorrectionNet / Turner-Energy-AI）；在近简并困难构象区分率上大幅提升（60.34% → 80.28%），应用于温度响应型 RNA 开关/温度计的理性设计与实验验证
   * 项目链接：[GitHub 仓库](https://github.com/Tonystarkw12/competition) · [赛事官网](https://competition.openlifesci-alliance.org)
+* **年度优秀学生二等奖**，南方科技大学，2019 – 2020 学年
+* **年度优秀学生三等奖**，南方科技大学，2020 – 2021 学年
+* **入学优秀新生奖学金**，南方科技大学，2019 年 11 月
 
 技能
 ======
@@ -70,15 +86,28 @@ Education
   * Focus: Intersection of NMR and AI —— Scientific Pulse Program Generation + Experimental Validation
   * Goal: Generating executable Bruker pulse sequences via domain LLMs with simulation and experimental closed-loop verification
 * B.S. in Biological Sciences, Southern University of Science and Technology (SUSTech), 2019 – 2023
+  * School of Life Sciences · Major in Biological Sciences · Cumulative GPA: 3.84 / 4.0 (Top 4/34 in first five semesters)
+  * English Proficiency: CET-4 634, CET-6 589, TOEFL 99 (Listening: 30/30 full score, Reading: 26)
+  * Core Coursework: Advanced Mathematics A, Linear Algebra A, General Physics B, General Chemistry A, Computer Programming A (Python), Computational Biology, Biostatistics, Biochemistry, Molecular Biology, Cell Biology, Genetics, etc.
 
 Research Experience
 ===================
-* 2023 – Present: Doctoral Researcher, Tsinghua University
+* 2023 – Present: Doctoral Researcher, Tsinghua University (Advisor: Prof. Yi Xue)
   * Fine-tuning domain LLMs for NMR pulse programs (Qwen3.5-27B, SFT + DPO, 1,800+ curated preference pairs)
   * Developing multi-tier NMR pulse program benchmarks: observable matching + strict statement scoring + simulation coverage, covering 50 files / 2,192 valid statements with bit-level reproducibility
   * Establishing NMRSIM validation loop: evaluating physical equivalence between AI-generated and official Bruker programs across normalized pulse patterns
   * Constructing NMR knowledge bases and RAG retrieval over 70+ technical manuals
   * Structural annotation and parsing of Bruker pulse sequences (phase cycles, multi-channel RF, gradients, shape envelopes)
+* Oct 2021 – May 2022: Intercellular Adhesion Signaling & IP7-RhoGAP Interaction, SUSTech (Advisor: Prof. Feng Rao)
+  * Initiated and led a 5-member student research competition team investigating RhoA/ROCK and IP6K2/IP7 pathways in cell adhesion
+  * Conducted multiple sequence alignment and homology domain analysis across 12 RhoGAP family proteins; designed primers and constructed recombinant plasmids verified by sequencing
+  * Overexpressed and purified GST-tagged recombinant proteins; quantified small molecule (IP7) binding affinity using Isothermal Titration Calorimetry (ITC)
+* Jul 2021 – Aug 2021: Histone Chaperone Gene Cloning & Protein Purification (Summer Research), SUSTech (Advisor: Prof. Hongda Huang)
+  * Carried out molecular cloning of histone chaperones to study storage and chaperone mechanisms in nucleosome assembly
+  * Performed target screening, vector assembly, competent cell transformation, and blue-white colony screening; induced expression with IPTG and purified target proteins via Ni-NTA affinity chromatography and size-exclusion chromatography (SEC)
+* Sep 2020 – Jan 2021: Electrophysiological Study of Gamma Oscillations in Hippocampal Dentate Gyrus, SUSTech (Advisor: Prof. Shengtao Hou)
+  * Investigated slow gamma neural oscillations in local field potentials (LFP) during rat novel object exploration
+  * Assisted in stereotaxic brain surgery for electrode implantation and multi-channel LFP recording; conducted reverse perturbation experiments using periodic electrical stimulation under anesthesia
 
 Open Source & Engineering
 =========================
@@ -93,6 +122,9 @@ Honors & Competitions
   * Team: Jianning Kang (Lead), Zihang Zhou, Yaxuan Yuan, Yu Shi
   * Core Achievements: Overcame limitations of classic Turner 2004 nearest-neighbor models in free energy precision and temperature dependence; designed `MotifCorrectionNet` / `Turner-Energy-AI`, significantly improving near-degenerate decoy discrimination (60.34% → 80.28%), applied to rational design and experimental testing of temperature-responsive RNA switches/thermometers
   * Links: [GitHub Repository](https://github.com/Tonystarkw12/competition) · [Official Site](https://competition.openlifesci-alliance.org)
+* **Outstanding Student Scholarship (2nd Prize)**, Southern University of Science and Technology, Academic Year 2019 – 2020
+* **Outstanding Student Scholarship (3rd Prize)**, Southern University of Science and Technology, Academic Year 2020 – 2021
+* **Outstanding Freshman Scholarship**, Southern University of Science and Technology, Nov 2019
 
 Technical Skills
 ================
