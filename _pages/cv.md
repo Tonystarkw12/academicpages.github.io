@@ -45,6 +45,7 @@ redirect_from:
 ======
 * **AI 与模型后训练 / 强化学习对齐**：精通 SFT、DPO、GRPO、RLHF、RLVR 等大模型后训练前沿技术；擅长领域数据集构建与审计、模型自主对齐与多级评测 Benchmark 设计
 * **AI Agent 与 RAG 智能体技术**：熟练掌握 **LangChain、LangGraph、RAG（检索增强生成）** 等 Agent 架构与框架；擅长复杂长链路推理规划、多 Agent 协作流、函数调用（Function Calling / Tool Use）以及专业领域知识库体系搭建
+* **Agent 生态与工具链适配 (Skills / CLI / MCP / Plugins)**：精通 Skills、CLI 命令行工具链、MCP（Model Context Protocol）协议开发与 Plugins 插件生态扩展；具备针对 **Claude Code、OpenClaw、Pi、DSH、Codex** 等多 Agent 平台与客户端的深度生态适配、跨环境协议对接与智能体工具包自研经验
 * **全栈开发与系统工程**：熟练掌握现代全栈开发技术栈，具备前端（React、TypeScript、Vite、现代响应式 CSS）、后端（Python、FastAPI、Node.js）、数据库与向量检索（SQLite、Vector DB、Redis）及 DevOps（Docker 容器化、Linux 环境运维、Git、CI/CD 与自托管云服务交付）全流程实战经验
 * **计算生物学与分子模拟**：熟练掌握分子对接（Molecular Docking）、分子动力学模拟（Molecular Dynamics, MD）；精通 Bruker TopSpin、NMR 脉冲序列设计与解析、NMRSIM 仿真验证闭环
 
@@ -97,6 +98,7 @@ Technical Skills
 ================
 * **AI & LLM Alignment / Post-Training**: Expert in SFT, DPO, GRPO, RLHF, RLVR, and domain LLM post-training pipelines; dataset curation & auditing, model alignment, and multi-tier benchmark evaluation
 * **AI Agents & RAG Frameworks**: Proficient in **LangChain, LangGraph, RAG (Retrieval-Augmented Generation)**, multi-agent orchestration, complex reasoning/planning workflows, tool calling/function execution, and domain knowledge base engineering
+* **Agent Ecosystem & Toolchain Adaptation (Skills / CLI / MCP / Plugins)**: Expert in designing, building, and adapting Skills, CLI developer toolchains, MCP (Model Context Protocol) servers/clients, and custom Plugins; specialized in deep multi-agent platform adaptation across **Claude Code, OpenClaw, Pi, DSH, Codex**, etc.
 * **Full-Stack Development & Engineering**: Proficient in modern full-stack engineering across Frontend (React, TypeScript, Vite, Modern CSS), Backend (Python, FastAPI, Node.js), Data/Vector Storage (SQLite, Vector DB, Redis), and DevOps (Docker containerization, Linux sysadmin, Git, CI/CD, and self-hosted cloud platform deployment)
 * **Computational Biology & Molecular Simulation**: Proficient in Molecular Docking and Molecular Dynamics (MD) simulations; expert in Bruker TopSpin, NMR pulse sequence design/parsing, and NMRSIM simulation loops
 
